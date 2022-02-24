@@ -1,0 +1,668 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A practical discourse upon prayer by Edward Pelling ...</title>
+            <author>Pelling, Edward, d. 1718.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1693</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 92 KB of XML-encoded text transcribed from 40 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2011-12">2011-12 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A53961</idno>
+            <idno type="STC">Wing P1088</idno>
+            <idno type="STC">ESTC R9437</idno>
+            <idno type="EEBO-CITATION">12590018</idno>
+            <idno type="OCLC">ocm 12590018</idno>
+            <idno type="VID">63873</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A53961)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 63873)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 967:20)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A practical discourse upon prayer by Edward Pelling ...</title>
+                  <author>Pelling, Edward, d. 1718.</author>
+               </titleStmt>
+               <extent>[2], 65, [11] p.   </extent>
+               <publicationStmt>
+                  <publisher>Printed by Edw. Jones for William Crooke ...,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1693.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>Reproduction of original in Cambridge University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Prayer --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2010-09</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2010-09</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Sampled and proofread</change>
+         <change>
+            <date>2010-10</date>
+            <label>Pip Willcox</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2011-06</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="imprimatur">
+            <pb facs="tcp:63873:1"/>
+            <p>IMPRIM<gap reason="illegible" resp="#OXF" extent="4 letters">
+                  <desc>••••</desc>
+               </gap>.</p>
+            <closer>
+               <date>October, 24. 1692.</date>
+               <signed>
+                  <gap reason="illegible" resp="#OXF" extent="1 line">
+                     <desc>〈1 line〉</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#OXF" extent="1 line">
+                     <desc>〈1 line〉</desc>
+                  </gap>
+               </signed>
+            </closer>
+         </div>
+         <div type="title_page">
+            <pb facs="tcp:63873:1"/>
+            <p>A <hi>Practical Diſcourſe</hi> UPON PRAYER.</p>
+            <p>
+               <hi>By</hi> EDWARD PELLING, <hi>D. D. Chap<g ref="char:EOLhyphen"/>lain in Ordinary to Their Majeſties, and Rector of</hi> Petworth <hi>in</hi> Suſſex.</p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>Edw. Jones</hi> for <hi>William Crooke,</hi> at the <hi>Green-Dragon</hi> without <hi>Temple-Bar,</hi> 1693.</p>
+         </div>
+      </front>
+      <body>
+         <div type="discourse">
+            <pb facs="tcp:63873:2" rendition="simple:additions"/>
+            <pb n="1" facs="tcp:63873:2"/>
+            <head>A Practical Diſcourſe <hi>UPON</hi> PRAYER.</head>
+            <p>THere is not any one act of Reli<g ref="char:EOLhyphen"/>gion, which carries with it a more beautiful Luſtre; or which is of greater uſe to us in all man<g ref="char:EOLhyphen"/>ner of of reſpects; or which is more ſtrictly required by the Laws of God; or better recommended to us by the practiſe of God's Saints, eſpecially by the moſt holy Example of our Bleſſed Saviour himſelf, than that of Prayer. And for this reaſon, I think I can<g ref="char:EOLhyphen"/>not do a more becoming or better office, than to diſcourſe upon this Subject after a plain practical manner; as fully, and yet as briefly as I can.</p>
+            <p>
+               <pb n="2" facs="tcp:63873:3"/>By Prayer I mean now, not only Sup<g ref="char:EOLhyphen"/>plication to God, or the Asking and Beg<g ref="char:EOLhyphen"/>ging at his hands all ſuch things as we want both for our Souls and Bodies; but (in the largeſt ſenſe of the word) the Praiſing, and Bleſſing of his Holy Name alſo, and the giving him thanks for all thoſe Benefits, which we have already received from him. And in diſcourſing upon this ſubject, I ſhall proceed after this eaſie inſtructive method.</p>
+            <list>
+               <item>I. Firſt, I ſhall conſider the Motives, which ſerve to kindle and increaſe in us a Spirit of Devotion.</item>
+               <item>II. And then Secondly, For the due perfor<g ref="char:EOLhyphen"/>mance of this great thing, I ſhall ſhew the way and manner, after which it is to be done.</item>
+            </list>
+            <p>Now there are ſeveral Motives unto Prayer, which may be taken, 1. Partly from the Conſideration of God's Nature and Works, and 2. Partly too from the Conſideration of Prayer it ſelf.</p>
+            <div n="1" type="part">
+               <pb n="3" facs="tcp:63873:3"/>
+               <head>I.</head>
+               <p>Firſt, The Greatneſs and Majeſty of God is ſo infinite, and he is ſo infinitely exalted above all things elſe, that he de<g ref="char:EOLhyphen"/>ſerves, and is highly worthy of all manner of Adoration, by reaſon of the Perfections and Glories of his Nature. All worſhip is founded upon the real, or at leaſt ſuppoſed Dignity of the Object; and the very blind<g ref="char:EOLhyphen"/>eſt People in every Nation pay it, becauſe they believe that there is ſomething above them, and that the Being they worſhip is better, and Greater than themſelves. We therefore to whom the true and ever-bleſſed God hath been pleaſed to reveal himſelf ſo plainly from Heaven, ſhould never fail in this part of our Duty to him, becauſe we know him to be the moſt Excellent Being in the World, Higher than all that are in the Earth, exalted far above all Gods (or, above the Higheſt Dignities) <hi>Pſal.</hi> 97. 9. God hath ſo manifeſted himſelf in times paſt by his Prophets, and in the laſt days by the Eternal Son of his Boſom, that if People would but look upon him by Faith, and with attentive Minds contemplate thoſe admirable Glories, wherewith he ſhines, it would naturally move them to proſtrate
+<pb n="4" facs="tcp:63873:4"/>
+themſelves before him, and to offer up the affections of their Souls to him. For the Reaſons of our Devotions are in his own moſt perfect Nature; and thoſe perfections which we diſcover there, do caſt ſuch a pow<g ref="char:EOLhyphen"/>erful infiueuce upon our Minds, that they ſet the Faculties of the Soul preſently on work; and after a moſt kindly manner ex<g ref="char:EOLhyphen"/>cite us to ſuch acts of Adoration, as are ſuitable to thoſe apprehenſions we have of the Divine Being. As for inſtance;</p>
+               <p>The Notions we have of God are, that he is Eternal, Self-exiſtent, abſolutely Per<g ref="char:EOLhyphen"/>fect, infinitely Happy, full of Majeſty, Glorious in Holineſs; and that Heaven is his Throne, and the Earth is his Footſtool. And if we would rightly conſider this, and conſider withal what our own condition is, what needy, frail, deſpicable, and wretch<g ref="char:EOLhyphen"/>ed things we are, this alone would pow<g ref="char:EOLhyphen"/>erfully move us, to fall down upon our Knees before him, to praiſe and magnifie his Name, to extol his Greatneſs, and to worſhip him with all ſuitable Awe and Reverence.</p>
+               <p>Again; We have this notion of God, that he is about our Paths, and about our
+<pb n="5" facs="tcp:63873:4"/>
+Beds, and underſtandeth all our ways; that he ſeeth in Secret; that he maketh manifeſt the Counſels of the Heart; and that where two or three are gathered toge<g ref="char:EOLhyphen"/>ther in his Name, there he is in the midſt of them. And how naturally doth the con<g ref="char:EOLhyphen"/>ſideration of God's Omnipreſence, and Om<g ref="char:EOLhyphen"/>niſcience move us, to pray every where unto him? To pour out our Hearts before him? in all our neceſſities and circumſtances to call upon him, and to ſpeak to him with that ſincerity of Heart, with that at<g ref="char:EOLhyphen"/>tention of Mind, with that fervency of Affection, and with that modeſt, humble, and reverent Behaviour, which becomes thoſe, who are under the Eye, and in the preſence and hearing of that infinite Being, who ſearcheth the very Heart and Reins?</p>
+               <p>This Notion we have of God too, that whatſoever he pleaſeth that he doeth in Heaven, and in Earth; that he ordereth all things according to the Counſel of his own will; and that he will have mercy on whom he will have mercy: So that if any Man be more excellent than his Neighbour, whether it be in Spiritual, or in Temporal and Worldly reſpects, it is God that makes the difference, of his own good pleaſure: And
+<pb n="6" facs="tcp:63873:5"/>
+doth not this lay very ſtrict obligations upon us to ſeek his face evermore? To be conſtant Supplicants at the Throne of Grace? And to give the Lord moſt humble and hearty thanks for the Benefits and Bleſſings, he is pleaſed to beſtow upon us?</p>
+               <p>Again; The notion of God ſignifies a Being infinitely wiſe; that knows all our wants, and what is beſt and moſt conveni<g ref="char:EOLhyphen"/>ent for us: infinitely Powerful, that is able to anſwer all our neceſſities; and infinitely Good, that extendeth his mercies to all his Works, and is particularly gracious to all that call upon him, to all that call upon him faithfully. And if we ſeriouſly conſi<g ref="char:EOLhyphen"/>der that we depend upon his good Provi<g ref="char:EOLhyphen"/>dence every moment of our Lives, it would powerfully move us, to have recourſe unto him continually, to open our hearts to him; to lay our neceſſities before him, importu<g ref="char:EOLhyphen"/>nately beſeeching him to take us under his care; and to ſupply us with all things need<g ref="char:EOLhyphen"/>ful both for Soul and Body.</p>
+               <p>Above all, it would charm us into Devo<g ref="char:EOLhyphen"/>tion, did we but conſider, how God loves every Soul, which he hath created; that as he is happy in himſelf, ſo he deſires that
+<pb n="7" facs="tcp:63873:5"/>
+we too may be perfectly happy in him; that all his Dipenſations are in order to this great end; that the very Duties he exacteth at our hands, are intended to fit, and pre<g ref="char:EOLhyphen"/>pare us for it; that the very afflictions he lays upon us are to diſcipline us for Hea<g ref="char:EOLhyphen"/>ven; and that all things work together for good to them that love him. Theſe conſi<g ref="char:EOLhyphen"/>derations are enough to kindle in our hearts the moſt ardent affections towards him; And where affection is, there will be all chearful Obedience, and there our Love of God will make us with readineſs, and zeal, and pleaſure of Mind expreſs the ſenſe we have of his great Goodneſs, by the moſt devout Adorations.</p>
+               <p>It is for want of a true ſenſe of God, that People are ſo ſeldom at Prayer; ſo hardly drawn to it; ſo cold, and careleſs, and, as it were, unconcerned at it. Right appre<g ref="char:EOLhyphen"/>henſions of his Nature and Perfections do naturally caſt ſuch an influence upon the mind, as would ſoon ſet the Powers and Faculties of the Soul on motion, if we would diſpoſe our ſelves ſo, as to be capa<g ref="char:EOLhyphen"/>ble of thoſe Divine impreſſions; and if we would duly conſider what God is in himſelf. And for that purpoſe we ſhould look every
+<pb n="8" facs="tcp:63873:6"/>
+day for him in the Scriptures, and contem<g ref="char:EOLhyphen"/>plate thoſe Beauties and Glories, under which he is repreſented to us in the Scrip<g ref="char:EOLhyphen"/>tures; for there we have a true Revelation of his Eſſence and Attributes; there he is repreſented as a Being ſo Great and Holy, ſo Immenſe and Glorious, ſo Omnipotent and Omniſcient, ſo Wiſe and Powerful, ſo Communicative Kind and Beneficent, and in every reſpect ſo Amiable and Adorable, that, were there no other conſiderations, this alone touching the tranſcendent Excel<g ref="char:EOLhyphen"/>lence of his Nature, would be a ſtrong Argument to move us to worſhip him daily in the beauty of Holineſs.</p>
+            </div>
+            <div n="2" type="part">
+               <p>II.</p>
+               <p>If beſides this, we conſider God in his Works, and as he ſtands related to us un<g ref="char:EOLhyphen"/>der the notion of a Being, in whom we Live, and Move, and have our own Being, and to whom we owe all that we have, all that we are, and all that we expect and hope to be, we ſhall find what a juſt Right, Title and Claim he hath to our daily De<g ref="char:EOLhyphen"/>votion. Theſe Works of God are of three ſorts.</p>
+               <p>
+                  <pb n="9" facs="tcp:63873:6"/>1. Firſt, His Creating and Forming of us in the Womb. By Virtue hereof he doth juſtly challenge and require all poſſible ſer<g ref="char:EOLhyphen"/>vices from us, as his peculiar Right and Due; and it was for this end, that he fa<g ref="char:EOLhyphen"/>ſhioned the ſeveral Members of our Bodies, and endued us with Rational Souls, that we ſhould Glorifie him with our Bodies, and with our Spirits.</p>
+               <p>And what can be more reaſonable, then that he, who gave us Hearts, ſhould have them? That he who Formed our Lips, ſhould be praiſed and magnified with them? That we ſhould Worſhip and Fall down, and Kneel before that infinite Being, which is our Maker? <hi>I will praiſe thee, O Lord</hi> (ſaith the Holy Pſalmiſt, for this reaſon) <hi>becauſe I am fearfully and wonderfully made, Pſ.</hi> 139. 14. And would to God every Man would ſeri<g ref="char:EOLhyphen"/>ouſly conſider, before he goes out of the World, for what end and purpoſe he came into it! 'Twill be a very diſmal thing in that day, when the terrors of Death are about him, to have the Torments of an Evil Conſcience too, and to remember with anguiſh and bitterneſs, how many bleſſed Opportunities of Devotion he hath deſpiſed: how much time he has thrown away upon
+<pb n="10" facs="tcp:63873:7"/>
+Wicked, or upon vain Employments, which God ſent him into the World to ſpend upon offices of Religion; and for how many years together he hath diſhonoured the Ma<g ref="char:EOLhyphen"/>jeſty of Heaven with thoſe Faculties, which were made to ſerve, and Glorifie and A<g ref="char:EOLhyphen"/>dore him. Think often, I beſeech you, of the Day of your diſſolntion, when the Duſt ſhall return to the Earth as it was, and the Spirit ſhall return unto God, who gave it. Lay up betimes a good treaſure againſt that day: Put not off Devotion as a work proper only for a Death-bed. God alone knoweth, how you will be diſpoſed at that time. <hi>They have not cryed unto me with their heart, when they howled upon their Bed,</hi> ſaith God, <hi>Hoſea</hi> 7. 14. Your Hearts may deceive you at your laſt Hour, though you think your ſelves ſure of them now. A Life of Piety and Devotion cannot poſſibly deceive you. It muſt needs ſave you many Tears, and Groans, and bitter Thoughts of Heart; but it cannot coſt you any to conſider, that you have remember'd the Creator from the days of your Youth.</p>
+               <p>2. Another work of God, by Virtue whereof he hath a juſt right to our Pray<g ref="char:EOLhyphen"/>ers and Praiſes, is his Providence. Hereby
+<pb n="11" facs="tcp:63873:7"/>
+God preſerves that Being, which he firſt gave us; ſupports our Faculties; and ſup<g ref="char:EOLhyphen"/>plies us with all things, that are neceſſary and ſuitable to our Natures.</p>
+               <p>The Meaſures of God's Providence are not all equal or alike; but it differs in its proportion, according as things differ in Degree and Dignity. It is general over all things, and ſhews it ſelf by conſerving and ſuſtaining every part of the Univerſe. It is particular and ſpecial over Men, who are the principal part of the ſublunary World; and as they are Evil or Good, ſo doth God adapt and ſuit his Providence to them, according to their reſpective condi<g ref="char:EOLhyphen"/>tions. He tenders his Grace and Mercy even to the Wicked; is Patient and Long<g ref="char:EOLhyphen"/>ſuffering towards them, that the ſenſe of his Goodneſs may lead them to Repentance. Upon their ſincere Repentance he Pardons them: but if inſtead of hearkning to his Calls, they continue obſtinate, and go on ſtill in their Wickedneſs, then he doth Pu<g ref="char:EOLhyphen"/>niſh and Plague them; oftentimes makes them viſible Examples of his Wrath and Vengeance, even in this World; and ſome<g ref="char:EOLhyphen"/>times too delivers them up to a Reprobate mind, which is the heavieſt and foreſt
+<pb n="12" facs="tcp:63873:8"/>
+Plague of all. To ſuch as make a due uſe of his Grace he giveth more. Theſe he Nurtureth and Loves, as a Father doth his Children, and indeed with much more ten<g ref="char:EOLhyphen"/>derneſs and compaſſion. He taketh a moſt eſpecial care of them: the very Hairs of their Heads are all numbred; they want no manner of thing, that is really good for them; and though he doth ſuffer them ſometimes to be evil intreated and hardly uſed here, yet he never lets them go out of his hands; but compenſates their ſuf<g ref="char:EOLhyphen"/>ferings abundantly, and makes all things work together for their good; nor can any thing in this World be able to ſeparate them from his Love.</p>
+               <p>And doth not all this make it Neceſſary for us, to be converſant daily at the Throne of Grace? Is it God that upholdeth us; and are not we concerned to beſeech him, not to withdraw his arm from under us? Is it of his meer Compaſſion and Mercy, that we are not utterly conſumed; and ſhall we not Praiſe and Adore him for it? Is it at his hands that we muſt receive e<g ref="char:EOLhyphen"/>very good and perfect gift; and ſhall we not repair to him in all our Neceſſities? Is the Sword, Famine, and Peſtilence; every
+<pb n="13" facs="tcp:63873:8"/>
+calamity we feel, and every Judgment we are afraid of, are all theſe ſent from God; and are we not deeply concerned to depre<g ref="char:EOLhyphen"/>cate his Vengeance? Is it God alone, that can forgive Sin; and is it not our duty to Beg it upon our Knees? Or, have we not Sins to ask his Pardon for? Have we no other wants to be ſupplyed? Are there no Mercies that we ſtand in need of? Have we no Souls nor Bodies to be provided for? Are there no Evils we deſire to be deli<g ref="char:EOLhyphen"/>vered from? Are there no Dangers we would avoid? Is not God's Protection Day and Night neceſſary to be deſired? Is not his ſpecial Grace and Favour to be Implored? Or, have we not received any Favours and Bleſſings, to return him our Thanks for? Theſe things carry their own light with them; and it muſt needs be the greateſt ſtupidity, to be wanting to our ſelves in a caſe, where there are ſo many ſtrict and weighty obligations.</p>
+               <p>3. Beſides theſe Works of Providence, which relate moſtly to this Life, we are to conſider the ſtupendious Work of Redemp<g ref="char:EOLhyphen"/>tion, whereby the great Lover of Souls hath done all that was on his part to do to prepare us for a Life Eternal. And one
+<pb n="14" facs="tcp:63873:9"/>
+would think this to be work enough for us all our days, to Bleſs, and Praiſe, and A<g ref="char:EOLhyphen"/>dore God for his unſpeakable and infinite Love to loſt Mankind, in ſending the Son of his Love, the Lord Jeſus into the World, that whoſoever believeth in him ſhould not Periſh. The exemplary Holineſs of Chriſt's Life; his Death and Sufferings; his Reſur<g ref="char:EOLhyphen"/>rection and Aſcenſion into Heaven; his ſending the Apoſtles to preach the Goſpel unto all Nations; and the wonderful effu<g ref="char:EOLhyphen"/>ſion of the Holy Spirit, to render their Mi<g ref="char:EOLhyphen"/>niſtry ſucceſsful; and to be with the Church to the Worlds end; theſe were glorious Me<g ref="char:EOLhyphen"/>thods, whereby God carried on the great work of Redemption. And as we ought with the moſt Devout Hearts to offer unto God daily our Sacrifices of Praiſe for theſe ineſtimable Bleſſings; ſo ſhould we Beg the continual Aſſiſtance and Increment of his Grace; that we may make a due uſe of them, leſt the Death of Chriſt, and the Preaching of his Goſpel be all in vain to us, and leſt we make our ſelves Reprobates and Sons of Perdition at the laſt. In the next Life there will be an end of Chriſt's Oeconomy; He will deliver up this his Kingdom to the Father, and then the ſtate of every Man, whether it be in Bliſs or in
+<pb n="15" facs="tcp:63873:9"/>
+Miſery, will be unalterable; And how can we think of another World, and not Pray unto God to Deliver us in the hour of Death, and in the day of Judgment? We cannot be ſuch Fools as to think we ſhall live here for ever. All of us muſt dye in our turns; though Men are apt to put the Day of their Diſſolution far from them, yet ſooner or later it will certainly come; <hi>for it is appointed unto Man once to die, and after that to be judged, Heb.</hi> 9. 27. And how can we expect any happineſs another day, if either we do not think there is ſuch a thing, or do not think it worth our Prayers? It will be moſt juſt for God to deny us that, which we would not ſo much as ask for: That certainly is the eaſieſt and leaſt thing we can do, and if our Salvation be of ſuch vaſt concernment, that we muſt work it out with fear and trembling, it muſt needs be the greateſt folly in the World to expect it, if we will not take, no not ſuch little pains for it, as the Lifting up of the Heart, and the labour of ones Lips amounts to.</p>
+               <p>2. Having thus conſidered thoſe Motives unto Prayer, which are taken from God's Perfections and Works, let us now proceed to thoſe which may be drawn from the thing it ſelf.</p>
+               <p>
+                  <pb n="16" facs="tcp:63873:10"/>Prayer is a neceſſary and due acknow<g ref="char:EOLhyphen"/>ledgment of God's Sovereignty over all. He knoweth all our Neceſſities, whether we ask him or no: He is privy to the very ſecrets of our Hearts, though we pour not out our Complaints before him: He under<g ref="char:EOLhyphen"/>ſtandeth our thoughts afar off; and there<g ref="char:EOLhyphen"/>fore he doth not ſtand in any need of our Supplications: He hath appointed us to Pray to him; that thereby we may admire him the Lord Paramount, and that we may teſtifie our inward ſenſe, that our whole dependence is upon him; that whatever we have, we receive at his hands; that he hath the ſupreme Propriety in all that we enjoy; that the whole Earth is the Lords, and the fulneſs thereof; and for that Rea<g ref="char:EOLhyphen"/>ſon we are bound to do him Homage; all people muſt fall down before him, and all Nations muſt pay him ſervice.</p>
+               <p>Prayer is the greateſt Priviledge we poor Creatures have in this World; That Duſt and Aſhes can ſpeak freely to the God of Comfort; that we can repair to him in all our Straits and moſt melancholy Circum<g ref="char:EOLhyphen"/>ſtances; that we can with confidence and ſafety open our very Hearts to him, and acquaint him with our Condition; that we
+<pb n="17" facs="tcp:63873:10"/>
+can come with boldneſs to the Throne of Grace; and that we can beg of God with a full aſſurance, that we ſhall receive of him what we would have, or that which is much better.</p>
+               <p>Prayer is a direct Inſtrument of Virtue and Holineſs. When we are at our Pray<g ref="char:EOLhyphen"/>ers, we are, or ought to be very ſerious; and when we are ſo, many ſerious thoughts are apt to fall in, touching Death and Judgment, touching Heaven and Hell, touching the Purity and Omniſcience of that Infinite Being we are ſpeaking to, and touching the vain and uncertain Con<g ref="char:EOLhyphen"/>dition of this World. By this means our Hearts by degres come to be weaned from this World, and to long for a Better; our Minds are kept in continual Awe, leſt we offend God, whoſe mercy and goodneſs is to bring us to it; our Luſts cool, and we are led to Repentance; the Remembrance of our Sins and Follies becomes bitter; Humility, Charity, and Meekneſs take poſ<g ref="char:EOLhyphen"/>ſeſſion of our Souls; and we learn to be Pa<g ref="char:EOLhyphen"/>tient, to reſign our ſelves up into the hands of God, and to ſubmit to his Heavenly will in all caſes.</p>
+               <p>
+                  <pb n="18" facs="tcp:63873:11"/>But nothing can be a greater Motive unto Prayer, than the Power and Uſeful<g ref="char:EOLhyphen"/>neſs of it, in the returns it makes us. <hi>The effectual fervent Prayer of a righteous Man a<g ref="char:EOLhyphen"/>vaileth much, Jam.</hi> 5. 16. It hath wrought Miracles; and though Miracles are ceaſed long ago, yet God heareth ſtill, and never do we go away from the Throne of Grace empty, if we pray as we ſhould. Many times God hears our Prayers, and we are not ſenſible of it, becauſe we do not pre<g ref="char:EOLhyphen"/>ſently receive the very thing we deſire. But the requeſt is Granted, though it may not be actually Fulfilled at our own time, and in our own way. For wiſe and good rea<g ref="char:EOLhyphen"/>ſons God doth defer the beſtowing of the matter we crave for, and ſometimes ex<g ref="char:EOLhyphen"/>changeth it, and gives us a Better thing in lieu of it. No Prayers miſcarry if they be rightly Qualified, or if they, who offer them, be rightly Diſpoſed.</p>
+            </div>
+            <div n="2" type="part">
+               <head>II</head>
+               <p>And this brings me to that, which we are to conſider in the next place, <hi>viz.</hi> After what way and manner this great and ſo<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#OXF" extent="4 letters">
+                     <desc>••••</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> of Religion ought to be per<g ref="char:EOLhyphen"/>
+                  <gap reason="illegible" resp="#OXF" extent="6 letters">
+                     <desc>••••••</desc>
+                  </gap> 
+                  <gap reason="missing" extent="2 pages">
+                     <desc>〈2 pages missing〉</desc>
+                  </gap>
+               </p>
+            </div>
+            <div n="1" type="part">
+               <pb n="19" facs="tcp:63873:11"/>
+               <head>I.</head>
+               <p>And Firſt, When we are going to our Prayers, we muſt be very careful to go with Souls purified from Sin by ſincere Repentance. <hi>For God heareth not Sinners, John 9. 31. If I regard Iniquity in my heart, the Lord will not hear me,</hi> Pſal. 66. 18. <hi>He that turneth away his Ear from hearing the Law, even his Prayer ſhall be abomination,</hi> Prov. 28. 9. <hi>I will that men pray every where, lifting up holy hands,</hi> 1 Tim. 2. 8. where the Apoſtle al<g ref="char:EOLhyphen"/>ludes to a cuſtom among the Jews, inſtitu<g ref="char:EOLhyphen"/>ted by God himſelf (and obſerved anciently by moſt Nations) of waſhing before Prayer, <hi>Exod.</hi> 40. 32. A Myſtical Rite ſignifying the Spiritual Cleanneſs, which is requiſite in all that prepare themſelves to ſpeak unto the God of Purity: And ſo the Pſalmiſt ex<g ref="char:EOLhyphen"/>plains it, <hi>Pſal. 26. 6. I will waſh my hands in Innocency; and ſo will I compaſs thine Altar, O Lord.</hi>
+               </p>
+               <p>Theſe places of Scripture do not mean, that we muſt not Pray, if we have com<g ref="char:EOLhyphen"/>mitted Sin, or if we have the ſenſe of any guilt upon us: No, we muſt Pray the ra<g ref="char:EOLhyphen"/>ther, that God may forgive and pardon the
+<pb n="20" facs="tcp:63873:12"/>
+Sins we have committed: But the meaning is, that we are not to go to our Prayers, with the love of Sin about us, or with pur<g ref="char:EOLhyphen"/>poſes to Sin on ſtill.</p>
+               <p>Our Souls muſt be clean and pure from wicked Reſolutions and Affections; we muſt appear before the Lord empty, in this ſenſe; void of all ſinful Habits and Intentions. The Heart is the Cenſer, and it muſt be Holy; and the Incenſe muſt be Holy, which comes out of it. If any Luſts of Unclean<g ref="char:EOLhyphen"/>neſs be burning there, it is as abominable, as the offering up of Unhallowed fire. If there be Envy or Hatred, Malice, Bitterneſs, or deſigns of Revenge, it is as if we lifted up hands defiled with Blood: For in the conſtruction of the Goſpel, <hi>he that hateth his Brother is a murderer, 1 Jo.</hi> 3. 15. If there be that which the Scripture calls Filthineſs of Spirit, it is like the offering of Swines-Fleſh. If there be a Ravenous or Quarrel<g ref="char:EOLhyphen"/>ſome temper, it is like the preſenting of a Dog's Neck. If there be an inſatiable or inordinate love of the World, it is like Sa<g ref="char:EOLhyphen"/>crificing to an Idol. We ſhould be ſure therefore at our Devotion to have Penitent and Honeſt Hearts, pure Affections, and gra<g ref="char:EOLhyphen"/>cious Lips. It is the Holy Perſon, that
+<pb n="21" facs="tcp:63873:12"/>
+makes the Prayer Holy; that Sanctifies the Altar and the Sacrifice upon it, ſo as to make the ſavour thereof ſweet in God's Noſtrils. Where Sin lyeth at the Door, it ſtops the paſſage of Prayer, and hinders it from being ſucceſsful. Such a one hath no benefit, either by his own Prayers, or o<g ref="char:EOLhyphen"/>ther Mens. Witneſs the Story of <hi>Achan, Joſ. 7. Achan</hi> had kept ſome of the ſpoil of <hi>Jericho,</hi> which was conſecrated unto the Lord; this Sin was imputed to the whole Congregati<g ref="char:EOLhyphen"/>on; and God refuſed to hear <hi>Joſhua</hi>'s Pray<g ref="char:EOLhyphen"/>er for them; <hi>The Lord ſaid unto Joſhua, get thee up, wherefore lieſt thou thus upon thy face? Iſrael hath ſinned, for they have even taken of the accurſed Thing;</hi> (that is, the thing which was devoted unto me, and which hath now brought a Curſe upon them) <hi>Joſ.</hi> 7. 10, 11. Sin unrepented of hinders the Power and Efficacy of Prayer.</p>
+            </div>
+            <div n="2" type="part">
+               <head>II.</head>
+               <p>Beſides Innocence of Heart, there is re<g ref="char:EOLhyphen"/>quired in a devout Perſon Conſtancy and Perſervance. <hi>Pray without ceaſing, 1 Theſſ. 5. 17. Continuing inſtant in Prayer,</hi> Rom. 12. 12. <hi>Praying always with all Prayer and Supplication in the Spirit, and watching thereunto with all
+<pb n="22" facs="tcp:63873:13"/>
+perſeverance,</hi> Epheſ. 6. 18. <hi>Continue in Prayer, and watch in the ſame with Thanksgiving,</hi> Col. 4. 2. All which commands are purſu<g ref="char:EOLhyphen"/>ant to that of our Bleſſed Saviour, <hi>that Men ought always to Pray, and not to faint,</hi> Luk. 18. 1.</p>
+               <p>Theſe places of Scripture are not to be underſtood in ſuch a ſtrict ſenſe, as if we were to employ our whole time at Prayer, without doing any thing elſe; for that is inconſiſtent with the buſineſs of our Cal<g ref="char:EOLhyphen"/>ings, and impoſſible for humane Nature to do: But the meaning is, that our minds muſt always be devoutly diſpoſed; that ſome portions of every day ſhould be ſet aſide for Prayer, that we ſhould be dili<g ref="char:EOLhyphen"/>gent, and frequent at it, addicted to it, and intent upon it; and that we ſhould not let ſlip any ſet or convenient hours of Devo<g ref="char:EOLhyphen"/>tions, but obſerve them conſtantly as oft as they return.</p>
+               <p>As Saint <hi>Chryſoſtom</hi> hath rightly noted, (in <hi>Col.</hi> 4. 2.) the Devil throughly knows what a good thing Prayer is; and therefore he mightily endeavours to keep People from it. He draws them into his own Snares, by drawing them away from God; by tempting them, firſt to Pray ſeldom, and ſo by degrees to give it quite over. By this
+<pb n="23" facs="tcp:63873:13"/>
+wile of the Devil there is a great ſtrange<g ref="char:EOLhyphen"/>neſs between them and God, which at laſt endeth in direct Enmity: and then it falls out as it happens uſually in differences be<g ref="char:EOLhyphen"/>tween Man and Man, that the offender is the hardeſt to be Reconciled.</p>
+               <p>It is therefore our Wiſdom to Renew our Prayers, and to draw nigh unto God often; to repair to him as frequently, at leaſt, as the Holy Pſalmiſt ſpeaks of, <hi>Evening and Morning and at Noonday will I pray, and cry aloud, Pſ.</hi> 55. 17. By this means our Hearts will be kept up at a high Key; our ac<g ref="char:EOLhyphen"/>quaintance with God will not only be pre<g ref="char:EOLhyphen"/>ſerved, but increaſe too; the Duty it ſelf will become eaſie and delightful; our Life will reſemble in ſome meaſure the Heavenly ſtate, and we ſhall prepare our ſelves by it for the ſervices of Eternity; the Joys above will be our portion here; our Converſation will be every day in Heaven together with our Hearts; our Temptations unto Sin will leſſen; our irregular Affections will be the better conquered, and the ſooner transformed into a Divine Love; and if there could be a Sinleſs ſtate on Earth, this would be the ready way to it, becauſe it would keep the minds of Men under a continual Awe and
+<pb n="24" facs="tcp:63873:14"/>
+Dread of offending that Holy Juſt, and Omniſcient Being, in whoſe Preſence they muſt appear, and to whoſe Majeſty they muſt ſpeak the next hour.</p>
+               <p>Beſides, we muſt not always expect to be heard for once or twice ſpeaking. God doth many times ſuſpend the anſwering our deſires, to Try and Exerciſe our Faith, to envigorate our Zeal, to make our Devo<g ref="char:EOLhyphen"/>tion the more fervent, and our Addreſſes to him the more and more importunate, like the crys of the reſtleſs Widow in the Para<g ref="char:EOLhyphen"/>ble, which our Saviour uſed as an argument to ſhew, that Men <hi>ought always to pray, and not to faint, Luke</hi> 18. If therefore our wants are not ſupplied as we would have them, the fault is in our ſelves, becauſe we are not ſo Conſtant, ſo Frequent, ſo Importu<g ref="char:EOLhyphen"/>nate at our Prayers, as we ſhould be. It is a ſet and ſtated Courſe of Devotion that God is pleaſed with; and this is one reaſon why we reap ſo little profit by all our La<g ref="char:EOLhyphen"/>bours under the Sun, becauſe we ſquander away a great part of our time upon Vanity, or upon Vice, which ſhould be devoted un<g ref="char:EOLhyphen"/>to God, to maintain a continual intercourſe and communion with him, and to fetch down his Bleſſings upon us: Such an inter<g ref="char:EOLhyphen"/>courſe
+<pb n="25" facs="tcp:63873:14"/>
+as was between God and <hi>Jacob,</hi> when the Angels were Aſcending and Deſcending on the Ladder.</p>
+            </div>
+            <div n="3" type="part">
+               <head>III.</head>
+               <p>Prayer muſt be accompanied with Faith. <hi>If any of you lack Wiſdom, let him ask of God, that giveth to all men liberally, and upbraideth not, and it ſhall be given him: But let him ask in Faith</hi> (or, with Faith) <hi>nothing wavering,</hi> &amp;c. <hi>James</hi> 1. 5, 6.</p>
+               <p>The meaning is not, that we muſt al<g ref="char:EOLhyphen"/>ways confidently believe, that we ſhall moſt certainly receive every particular thing we pray for. We cannot confidently expect what God hath not ſome way or other, and in ſome meaſure or other, promiſed. And tho' he hath abſolutely promiſed us all things which pertain to Eternal Life, and Godlineſs; yet there are other things, which appertain to this preſent Life, which he hath promiſed with ſome limitations; that is if ſuch and ſuch things be Neceſſary, or Profitable, or Convenient for us. Seeing then all the promiſes of God are not of e<g ref="char:EOLhyphen"/>qual Extent, and ſeeing ones Faith can go no farther than the promiſe goes, we can<g ref="char:EOLhyphen"/>not
+<pb n="26" facs="tcp:63873:15"/>
+firmly believe, that we ſhall have every particular thing granted us, becauſe we can<g ref="char:EOLhyphen"/>not certainly tell, whether this or that in particular will be Beneficial, or Proper for us: Whatever we may imagine or conceive in our own thoughts, it is God alone that knows that infallibly; and therefore we cannot be aſſured, that God will give it us.</p>
+               <p>We are to underſtand the matter thus then; that when we Pray, we muſt be firm<g ref="char:EOLhyphen"/>ly perſuaded in our minds, that God know<g ref="char:EOLhyphen"/>eth how to grant the thing we beg of him, and that he is able and ready to do it, if he ſees it<g ref="char:punc">▪</g> Neceſſary or good for us. There muſt be no doubt of God's Power and Goodneſs, nor of his Care for us: <hi>He that cometh to him muſt believe, not only that he is, but alſo that he is a Rewarder of them that dili<g ref="char:EOLhyphen"/>gently ſeek him, Heb.</hi> 11. 6. When therefore we are preparing our ſelves for Prayer, that we may prepare our Hearts aright, we ſhould entertain our Minds with the ſerious conſideration of God's Attributes and Per<g ref="char:EOLhyphen"/>fections; that his Mercy reacheth over all his Works; that he is the faithful God; that he cannot Lie; that with him there is no variableneſs or ſhadow of Change; that his promiſes are Yea and Amen; that he is
+<pb n="27" facs="tcp:63873:15"/>
+nigh unto all who call upon him faithfully, and that he will (one way or other) fulfill the deſires of them that fear him. Such Conſiderations as theſe will enliven and en<g ref="char:EOLhyphen"/>vigorate our Prayers with an active Faith; and in the ſtrength thereof we may draw near and fall low, in full aſſurance that his Ear is open, and his Hand ready, to give us the very things we long for, or ſome<g ref="char:EOLhyphen"/>thing elſe which in his infinite Wiſdom he knoweth to be better for us.</p>
+            </div>
+            <div n="4" type="part">
+               <head>IV.</head>
+               <p>In our Prayers we muſt with all humble<g ref="char:EOLhyphen"/>neſs of Mind evermore ſubmit our ſelves to God's Will and Pleaſure. <hi>Thy will be done on Earth as it is in Heaven,</hi> is a part of that Prayer, which our Bleſſed Lord himſelf formed for our Daily uſe. And tho' thoſe words do primarily mean ſuch an active, chearful, and univerſal Obedience ro God's Commands as the Angels of Heaven expreſs; Yet in a Secondary ſenſe they ſignifie too ſuch Patience and Submiſſion to God's Pro<g ref="char:EOLhyphen"/>vidence, as was ſo eminent in the Lord of Life and Glory; who in his laſt Agonies reſigned up himſelf into his Fathers hands, with this holy requeſt, <hi>Not my Will, but thy Will be done.</hi>
+               </p>
+               <p>
+                  <pb n="28" facs="tcp:63873:16"/>Becauſe we are ſo ignorant of thoſe things which are really for our good, it is very reaſonable we ſhould leave it unto God to determine for us; and it is for good reaſons that he doth ſometimes deny even his faith<g ref="char:EOLhyphen"/>ful Servants the requeſt of their Lips.</p>
+               <p>Though the matter of their Prayers, or the thing they deſire to have, may be Law<g ref="char:EOLhyphen"/>ful enough in it ſelf, yet accidentally and in the conſequence it may be hurtful, or very dangerous, tho' they do not think it; and in ſuch a caſe it is a Favour and Kind<g ref="char:EOLhyphen"/>neſs, if God gives them ſuch a denial as the Lord Jeſus gave <hi>James</hi> and <hi>John,</hi> when they put their Mother upon asking <hi>that they might ſit, the one on his Right Hand, and the other on his Left in his Kingdom; Ye know not what ye ask,</hi> ſaith our Saviour, <hi>Matth.</hi> 20. 22.</p>
+               <p>Or perhaps the thing they pray againſt, may be indeed for their good, tho' they be not ſenſible of it for the preſent; and then God is their Friend in ſuffering them to la<g ref="char:EOLhyphen"/>bour under it, eſpecially if he grants their de<g ref="char:EOLhyphen"/>ſires another way; as he never faileth to do in ſuch caſes, you know St. <hi>Paul</hi> complaind of a Thorn in his Fleſh, a Meſſenger of Satan ſent to Buffet him, 2 <hi>Cor.</hi> 12. 7. Divines
+<pb n="29" facs="tcp:63873:16"/>
+cannot certainly tell, what the particular thing was, which he compared to a Thorn; whether it was ſome acute Diſeaſe in his Body, or ſome perſecution outwardly. Que<g ref="char:EOLhyphen"/>ſtionleſs it was ſome ſharp Affliction or o<g ref="char:EOLhyphen"/>ther, which touched him to the quick; and St. <hi>Chryſoſtom</hi>'s opinion is very probable, that it was ſome very harſh uſage he recei<g ref="char:EOLhyphen"/>ved from ſome oppoſers of the Truth, who were the Devils Inſtruments to impriſon, beat, and ſcourge the Apoſtle. Whatever that Thorn in his Fleſh was, notwithſtanding all his prayers it was not drawn out. He beſought the Lord thrice (that is, often ſaith St. <hi>Chryſoſtom</hi>) that it might depart from him. But his Prayers could not pre<g ref="char:EOLhyphen"/>vail: becauſe whatever the Devils Inſtru<g ref="char:EOLhyphen"/>ments intended, God intended it in Mercy to him, that he might not be exalted above meaſure, through the abundance of his Re<g ref="char:EOLhyphen"/>velations.</p>
+               <p>However his Prayers did not return emp<g ref="char:EOLhyphen"/>ty; inſtead of Deliverance from Pain, he received Divine aſſiſtance and ſupport from above. My Grace, ſaid God, is ſufficient for thee; for my ſtrength is made perfect in weakneſs; and that was far better, than if he had had his Prayers anſwered in kind.
+<pb n="30" facs="tcp:63873:17"/>
+And from this ſingle inſtance we learn, what<g ref="char:EOLhyphen"/>ever our Condition, and whatever our own deſires may be, ſtill to ſubmit to the will and pleaſure of God; who beſt knows what is fit for us. Tho' we have not the very thing we pray for, yet God will give us that which will do us more good, if we be but mindful of our Duty to him. And tho' he lets us go about with Thorns in our Fleſh, yet his Grace is as ſufficient for us, as it was for St. <hi>Paul;</hi> and as long as we receive a ſufficient meaſure of Humility, Patience, and Meekneſs, together with a Mortified Temper, and a Chriſtian frame of Heart, we have reaſon to bleſs God for ſuch a plentiful and rich return of our Pray<g ref="char:EOLhyphen"/>ers; and to adore his Goodneſs, that we have much more than we deſerve, and much better things than we deſire.</p>
+            </div>
+            <div n="5" type="part">
+               <head>V.</head>
+               <p>Prayer muſt be accompanied with great attention; I mean a ſettled and compoſed Temper, a ſtaid Mind, with our Thoughts gathered together into a Centre, and all of them fix'd upon the ſolemn buſineſs we are about. Men cannot expect that God will mind thoſe Prayers, which they do not mind themſelves; or that he will open his Ears to thoſe, who are not ſerious before
+<pb n="31" facs="tcp:63873:17"/>
+him, and with him. The Text bears a far<g ref="char:EOLhyphen"/>ther Conſtruction, 1 <hi>Cor.</hi> 14. 15. But yet in this ſenſe, we are to pray with the Under<g ref="char:EOLhyphen"/>ſtanding; to conſider and mind well what is uttered in time of Prayer; not to offer the Sacrifice of Fools, who run by rote, and at all adventures; but with recollected thoughts to ponder and attend to what we ſay unto the Majeſty of Heaven.</p>
+               <p>When we are at Prayer, we ſhould call home our Fugitive Thoughts, and employ them with ſuch ſeriouſneſs and united con<g ref="char:EOLhyphen"/>ſideration, as if we were going to die. The cuſtom of the Lord Jeſus was to go up to ſome Mountain to pray; thereby teaching all his followers to take their leave of the World, for the due performance of their De<g ref="char:EOLhyphen"/>votion; and during the time of it, to retire as near as may be to Heaven, and to have their minds there, and there only. To draw nigh unto God with our Lips, and at the ſame time to let our thoughts rove and ramble, and run away at a great diſtance from him, is in effect to tell God, that we are willing to pay him ſome outward Civility, but care not for the buſineſs we come to him about; and how then can we expect that God will attend to it? 'Tis neceſſary therefore to re<g ref="char:EOLhyphen"/>collect
+<pb n="32" facs="tcp:63873:18"/>
+our ſelves, to fix our minds, when we fall down on our Knees before him, and in order thereunto we ſhould conſider how infinitely great that Being is, to whom we make our Addreſſes, and of what vaſt im<g ref="char:EOLhyphen"/>portance the thing is, which we are tranſ<g ref="char:EOLhyphen"/>acting with him; no leſs than the Eternal Welfare of our Soul and Body; which we ſhould pray for with the greater attention, becauſe we are not ſure of another Oppor<g ref="char:EOLhyphen"/>tunity to ſollicite God about it.</p>
+               <p>At the Publick Service of the Church, it is an excellent means to keep our thoughts at Home, to give great heed to what is ut<g ref="char:EOLhyphen"/>tered by him that miniſtreth, that is our Mouth and Interceſſour; not to loſe a word, but to keep an even pace with him in our Meditations, and as he goes along, to mind, ponder, and weigh the things ſpoken, be<g ref="char:EOLhyphen"/>cauſe the Soul lodgeth ſo near unto the Ear, that if the door be open to let in the voice, the Inhabitant within cannot but liſten and be attentive.</p>
+            </div>
+            <div n="6" type="part">
+               <head>VI.</head>
+               <p>If we carefully obſerve this, it will help to carry us on to that which is another Qua<g ref="char:EOLhyphen"/>lification
+<pb n="33" facs="tcp:63873:18"/>
+of Prayer; I mean Affection and Fervency. When we apprehend and mind the matter of our Prayers, and add to it an Earneſtneſs and Vehemence of deſire; then is our Devotion truly ſaid to be Fer<g ref="char:EOLhyphen"/>vent and Affectionate. And this is one ſenſe of that Phraſe which we meet with thrice in the Epiſtles; <hi>Praying with the Spirit,</hi> 1 Cor. 14. 15. <hi>Supplication in the Spirit,</hi> Epheſ. 6. 18. and <hi>Praying in the Holy Spirit,</hi> Jude 20. In the ſtrict ſenſe it ſignifies Praying by the Extraordinary Aſſiſtance and Gift of the third Perſon in the Holy Trinity.</p>
+               <p>For in thoſe firſt times of Chriſtianity, there was among many other Extraordinary Gifts, a Miraculous Gift of Prayer, where<g ref="char:EOLhyphen"/>with ſome of the Church were Divinely and immediately inſpired, ſo that they were a<g ref="char:EOLhyphen"/>ble on a ſudden to conceive and utter Pray<g ref="char:EOLhyphen"/>ers, which were apt and ſuitable to the Chriſtian Religion; the old Jewiſh Forms being then ſome of them uſeleſs, and all of them imperfect, becauſe the condition of Church-affairs was now changed. Upon this account there was then great need of an exttaordinary Gift of Prayer, to ſupply the wants of the Chriſtian Aſſemblies.</p>
+               <p>
+                  <pb n="34" facs="tcp:63873:19"/>But this extraordinary Gift ceaſed in a little time, ſtated Forms of Divine Service being provided for the Churches uſe; Forms which had been Originally conceived by in<g ref="char:EOLhyphen"/>ſpired Men, and which were afterward preſerved and uſed<note place="margin">See Dr. <hi>Hammond</hi> an <hi>Jude</hi> the 20th, and his Vindication of the Liturgy.</note> by thoſe who had benefited ſo much by them. There is no ſuch thing as Praying by the Spirit in a ſtrict ſenſe; or, Praying by the extraordinary Gift of the Holy Ghoſt: nor in truth, is there any need of it now, when there is a ſufficiency of Uſeful, An<g ref="char:EOLhyphen"/>cient, and excellent Forms.</p>
+               <p>And yet we muſt in ſome ſenſe pray in, or by the Spirit, or elſe our Prayers will do us no good. We muſt pray with that Zeal, which is kindled in the Heart by the ordi<g ref="char:EOLhyphen"/>nary operation of the Holy Spirit. We muſt Pray with Spiritual Affection, with ardency of Deſire, with Fervency of Spirit, and with Hearts lifted up and Inflamed. Our Prayers muſt not be Spiritleſs, nor muſt we be Cold, or Lukewarm at them; God heareth not Prayers which are offered up by People that do not ſtir up their Affe<g ref="char:EOLhyphen"/>ctions, nor chafe their Deſires, nor move their Minds into a Warmth; but Pray care<g ref="char:EOLhyphen"/>leſly
+<pb n="35" facs="tcp:63873:19"/>
+as if they were indifferent whether God heard them or no. Such Prayers can never reach the Heavens; they are loſt by the way; they drop down preſently to the ground for want of Affection and Fervency, which ſhould have been their Wings.</p>
+               <p>In ſhort when we call upon God, we ſhould imploy all the powers and faculties of our Souls, and lay out our whole Man upon the buſineſs before us; and becauſe the conſideration of God's Attributes gives life and vigour to the whole body of Reli<g ref="char:EOLhyphen"/>gion, we ſhould poſſeſs our minds with the ſenſe of thoſe perfections: and eſpecially with the ſenſe of his great Goodneſs. For as the Notion of his Greatneſs, Power, Ju<g ref="char:EOLhyphen"/>ſtice, and Omnipreſence is naturally apt to create in us attention of mind to what we ſay; ſo the conſideration of his Mercy and Benignity is enough to Charm our Affecti<g ref="char:EOLhyphen"/>ons.</p>
+               <p>In order therefore to Fervency in Prayer, let us think of the wonderful kindneſs and goodneſs of God, and carry the thoughts of it along with us throughout the whole tenor of our Devotion, how good he is in his own Nature; how Communicative and
+<pb n="36" facs="tcp:63873:20"/>
+Beneficent to his poor Creatures; how Gracious to Mankind; how Merciful to Sinners; how eaſie to be intreated upon our Repentance; and how ready he is to pardon Iniquity, Tranſgreſſion and Sin.</p>
+               <p>2. We ſhould caſt our ſelves down under an humble ſenſe of our own Unworthineſs and Vileneſs, and with a thankful acknow<g ref="char:EOLhyphen"/>ledgment of the Happineſs we have, that Worms, Duſt and Aſhes, Nothings, Crea<g ref="char:EOLhyphen"/>tures, that by our Sins are worſe than no<g ref="char:EOLhyphen"/>thing, have the favour and freedom to ſpeak before him, and to him. Theſe Conſidera<g ref="char:EOLhyphen"/>tions are good inward means to raiſe our Hearts and Affections into a warmth, when we lift up our voice in Prayer.</p>
+               <p>To which I ſhall add, 3. but one dire<g ref="char:EOLhyphen"/>ction more touching outward help; and it is in all your Devotions to uſe ſome whole<g ref="char:EOLhyphen"/>ſome and affecting Forms of Prayer: What<g ref="char:EOLhyphen"/>ever hath been objected againſt them, they are all Pious and Unprejudiced Spirits of great advantage. For thereby the Soul is rid of a great variety of thoughts, which bring Diſtractions. The Mind is not at a loſs for Words, nor the Invention to ſeek for Matter; nor is there that fear upon us,
+<pb n="37" facs="tcp:63873:20"/>
+which otherwiſe muſt needs be upon all humble men, of ſpeaking irreverently, or unbecomingly to God. Every thing elſe being prepared, we have no more to do, but to prepare our Hearts, and ſtir our Af<g ref="char:EOLhyphen"/>fections. The Wood and the Sacrifice be<g ref="char:EOLhyphen"/>ing ready at hand, our only buſineſs is, to bring Fire to the Altar, and to keep it burning.</p>
+               <p>And here let me recommend unto your ſpecial uſe thoſe Forms of Prayer, which our Church uſeth in her Publick Liturgy. Forms that carry with them the true Spirit of Primitive Chriſtianity, and are agreeable to thoſe, which were uſed in the Primitive Ages, and ſome of them the very ſame. Forms that were throughly digeſted, and put together by the great Men at the time of Reformation; Great for their Learning; Great for their Wiſdom; Great for their eminent Zeal, and Piety, and Love of Truth; and the Greater ſtill, becauſe afterwards they ſuffered for this Work by the hands and fury of the Romaniſts, and ſome of them ſettled it at the ſtake with their laſt Blood. In Compoſing that Book, they did not conſider how they might gratifie par<g ref="char:EOLhyphen"/>ticular Fancies, but how they might anſwer the neceſſities, and provide for the real
+<pb n="38" facs="tcp:63873:21"/>
+good of the whole Church; And according<g ref="char:EOLhyphen"/>ly ſuch Prayers were, after much delibera<g ref="char:EOLhyphen"/>tion, pitched upon, as were moſt Profitable, moſt ſignificant, and moſt moving. And 'tis obſervable of them, that as they are ge<g ref="char:EOLhyphen"/>nerally ſhort, and therefore eaſie to be Learned and Remembred; ſo they are very full too, and ſo comprehenſive for matter and ſignification, that there is nothing need<g ref="char:EOLhyphen"/>ful for Soul or Body, but what there are Petitions for; and thoſe too, relliſhing of ſuch a Spirit of Piety, as is enough to affect and move the dulleſt Hearts, if our Minds do but go along with them; and without that, all the Prayers in the World will not work upon us.</p>
+            </div>
+            <div n="7" type="part">
+               <head>VII.</head>
+               <p>In all our Prayers we muſt be ſure to be Charitable. When our Saviour gave his Church a Prayer of his own Compoſing<g ref="char:punc">▪</g> he directed us to pray in the Plural num<g ref="char:EOLhyphen"/>ber, even at our private Devotion. <hi>When thou Prayeſt, enter into thy Cloſet, and when thou haſt ſhut thy door, pray to thy Father which is in ſecret</hi>—And <hi>after this manner pray ye, Our Father, which art in Heaven—Give us this day our daily bread—Forgive us our treſ<g ref="char:EOLhyphen"/>paſſes</hi>—
+<pb n="39" facs="tcp:63873:21"/>
+                  <hi>And lead us not into temptation;</hi> Matth. 6. 6, 9, 11, 12, 13.</p>
+               <p>Next to our ſerving God, all our buſi<g ref="char:EOLhyphen"/>neſs in this World is, to do our ſelves and others all the good we can; and becauſe the condition of our nature is ſo ſcanty and weak, that it is not in our power to do all that is needful with our own hands, there<g ref="char:EOLhyphen"/>fore we muſt apply our ſelves to him, from whom every good and perfect gift cometh, that he may ſupply all Mens wants out of his own infinite and inexhauſtible treaſures. Every one therefore muſt have a ſhare in our Prayers, becauſe every one of us is in ſome want or other. <hi>I exhort therefore, that firſt of all Supplications, Prayers, Interceſſions, and giving of thanks be made for all men,</hi> ſaith St. <hi>Paul</hi> in 1 <hi>Tim. 2. 1. For Kings, and for all, that are in Authority; for one another,</hi> ſaith St. <hi>James,</hi> Jam. 5. 16. <hi>For them that deſpitefully uſe you, and perſecute you,</hi> ſaith our Bleſſed Saviour himſelf, <hi>Matth.</hi> 5. 44.</p>
+               <p>Indeed this laſt direction, about praying for ones Enemies, is commonly look'd upon as a hard ſaying; but the only reaſon is, becauſe there is ſo much ill nature in the World. The Lord Jeſus, and his firſt Mar<g ref="char:EOLhyphen"/>tyr
+<pb n="40" facs="tcp:63873:22"/>
+St. <hi>Stephen</hi> did both go out of the World praying for their barbarous and blood<g ref="char:EOLhyphen"/>thirſty Enemies, the very worſt of Men. And that our Prayers may be, as theirs were, Holy and Efficacious, they muſt pro<g ref="char:EOLhyphen"/>ceed from ſedate Minds, from Hearts full of Gentleneſs, Goodneſs, and Compaſſion. There are two things eſpecially, which in<g ref="char:EOLhyphen"/>fect all Prayer, and turn it into Abomina<g ref="char:EOLhyphen"/>tion.</p>
+               <p>The firſt is unreaſonable Anger; when Mens Paſſions are ſuffered either to ſtart without juſt and ſufficient cauſe, ot to riſe unto an immoderate Height, or to laſt an undue time. Such Heats are ſinful, and conſequently as noiſom Fuel in the Heart, as the fire and brimſtone of Hell. There<g ref="char:EOLhyphen"/>fore St. <hi>Paul</hi> requires us to <hi>lift up holy hands without wrath, 1 Tim.</hi> 2. 9. And this is one rea<g ref="char:EOLhyphen"/>ſon of that other command, <hi>Epheſ. 4. 26. Let not the Sun go down upon your wrath;</hi> becauſe the Evening was wont to be a conſtant time for ſolemn Devotion. Anger at beſt is a weak Paſſion in us, an Argument of great infirmity in our Nature, that ſhews how near of kin we are to the Beaſts that periſh. Therefore amidſt all Reſentments we ſhould govern our ſelves by God's Example, whoſe
+<pb n="41" facs="tcp:63873:22"/>
+Wrath moves with a very ſlow pace; <hi>and endureth but the twinkling of an Eye, Pſal.</hi> 30. 5. But when we approach to God, we muſt be ſure to keep out the Brutal part from mingling with our Devotion, to bring our Minds to a right Chriſtian temper, and to ſpeak unto the Author of Love and Peace, without Coals in our Boſom, and without any Warmth, but that of Zeal and Charity.</p>
+               <p>2. The other thing, which corrupts all Prayer, is Malice; when that, which ought to be a tranſient Paſſion, ſettleth, and fix<g ref="char:EOLhyphen"/>eth into a wicked Habit, ſo that the Mind becomes Implacable, Irreconcilable, and Revengeful. This is utterly inconſiſtent with the Spirit of Chriſt's Religion, which commands us to forgive a Brother that ſin<g ref="char:EOLhyphen"/>neth, <hi>even till ſeventy times ſeven, Math.</hi> 18. 22. That is, as often as he ſinneth, and repents of it. All that God himſelf requires at our hands is, Prayer and Repentance: And if this be the price of his favour, ſurely we ſinful, wretched Men ſhould think it enough to purchaſe each others Charity. What Man is he that liveth and ſinneth not? And how can any of us expect Mercy, if we ſhew none? How can we hope, with our crys and importunities to move the Bowels
+<pb n="42" facs="tcp:63873:23"/>
+of God, as long as we have no Bowels our ſelves? Or (which is the ſame thing) none but what we ſhut up from our fellow Crea<g ref="char:EOLhyphen"/>tures? It is a peremptory Sentence, <hi>Matth. 6. 15. If ye forgive not Men their treſpaſſes, nei<g ref="char:EOLhyphen"/>ther will your Father forgive your treſpaſſes.</hi> It is obſervable, that our Saviour took hold of frequent occaſions, to inculcate the ne<g ref="char:EOLhyphen"/>ceſſity of mutual Charity and Mercifulneſs, as one great Characteriſtical note of a Chri<g ref="char:EOLhyphen"/>ſtian indeed. And, that we might continu<g ref="char:EOLhyphen"/>ally remember it, and be afraid to neglect it, He inſerted it into that Prayer which we are to uſe as daily, as we need our Bread; <hi>Forgive us our treſpaſſes, as we forgive them that treſpaſs againſt us.</hi> And with what con<g ref="char:EOLhyphen"/>fidence can an uncompaſſionate, and uncha<g ref="char:EOLhyphen"/>ritable Man look up to the Father of Mer<g ref="char:EOLhyphen"/>cies, with that, or any other Prayer in his Mouth? What is this, but to bring a Curſe upon himſelf, inſtead of a Bleſſing? What is this, but a ready way to have all his Prayers flung back upon his face with In<g ref="char:EOLhyphen"/>dignation and Scorn; ſince it is the rule of God's proceedings, <hi>that he ſhall have judg<g ref="char:EOLhyphen"/>ment without mercy, who hath ſhewed no mercy,</hi> Jam. 2. 13.</p>
+            </div>
+            <div n="8" type="part">
+               <pb n="43" facs="tcp:63873:23"/>
+               <head>VIII.</head>
+               <p>To all theſe neceſſary Qualifications of Prayer, I muſt add, in the laſt place, that we muſt Pray with Reverence. For though this be the leaſt conſiderable thing, becauſe it is an external bodily geſture, which bears no proportion to the neceſſary diſpoſitions of the Soul; yet it is of ſuch moment, that if we pray not in an humble manner, it looks as if we did not conſider or know what a weighty buſineſs we are about; A cover'd Head, a heavy Eye, a ſtiff Neck, and an unbended Knee are far from being expreſſi<g ref="char:EOLhyphen"/>ons of that great ſenſe we ought to have of God's Majeſty, and of our own Vileneſs, and infinite diſtance from him. And beſides the Decency of this matter, it is to be con<g ref="char:EOLhyphen"/>ſidered, that Bowings and Proſtrations, and ſuch outward acts of Religious Worſhip, are God's proper and peculiar right; or elſe the ſecond Commandment would not have it unlawful to give them away to other things. Indeed as to actions of this nature, Men ſhould be careful, not to fly out into Vanity, Fantaſticalneſs, or Superſtition, but contain themſelves within the bounds of an Humble and Reaſonable ſervice. When
+<pb n="44" facs="tcp:63873:24"/>
+Decency and Prudence are obſerved, Reve<g ref="char:EOLhyphen"/>rent geſtures are of great uſe to heighten the Devotion of the Heart; and at the Publick Service of the Church they are Ex<g ref="char:EOLhyphen"/>emplary too, and by conſequence good means in their kind, to provoke, aſſiſt, and raiſe the Devotion of all.</p>
+               <p>I have now done theſe two things, which I was deſirous to diſcourſe of in their due or<g ref="char:EOLhyphen"/>der, to form in your Hearts a Devout tem<g ref="char:EOLhyphen"/>per, and to inſtruct you in the way, how you are to offer unto God your Daily Sa<g ref="char:EOLhyphen"/>crifice, ſo that it may be Holy and Accep<g ref="char:EOLhyphen"/>table to him. If we intend to be wiſe for our ſelves, and to order our Life, ſo that it may be well with us; nothing can be of greater concernment, excellence, or advan<g ref="char:EOLhyphen"/>tage to us, than a Spirit of Devotion.</p>
+               <p>Hereby we become conformable to the Image of our Bleſſed Saviour; whoſe cuſtom was, not only to repair to the Temple and Synagogues, there to joyn with the reſt of the Jews in the Publick Worſhip of God; but to retire alſo into Solitudes and Deſarts for Private Commerce with his Father, and ſometimes to continue whole Nights in Prayer: Nor is it poſſible for us to walk
+<pb n="45" facs="tcp:63873:24"/>
+as we ſhould, but by treading in ſome fair meaſure in thoſe ſteps of his, and by lead<g ref="char:EOLhyphen"/>ing, as he did, a life of Piety.</p>
+               <p>Hereby we reſemble too thoſe firſt Diſci<g ref="char:EOLhyphen"/>ples of his, on whoſe Hearts the Blood of Chriſt was ſo warm, and in whoſe Spirits there was ſuch a conſtant Fervor and Zeal, that they were daily in the Temple praiſing and bleſſing God, and divided their hours between the publick Sanctuary, and that private Houſe or Oratory by it, whither they were conſtrained to go for thoſe ſo<g ref="char:EOLhyphen"/>lemn offices, which were peculiar to Chri<g ref="char:EOLhyphen"/>ſtianity.</p>
+               <p>By a Spirit of Devotion we have our Hearts daily there, where our only true treaſure is; we are taking every hour a new ſtep out of this vexatious and vain World; we exerciſe the Faith, Patience and Humility of Saints; we learn to be Meek, Charitable and Holy; We are full of the joys and comforts of the Holy Ghoſt, even amidſt thoſe Thiſtles and Brambles, which we are to go through towards God's King<g ref="char:EOLhyphen"/>dom; we lye down with Pleaſure, ſleep in Peace, and riſe again under the covert of the Divine Protection; we have God al<g ref="char:EOLhyphen"/>ways
+<pb n="46" facs="tcp:63873:25"/>
+in our thoughts; and live daily upon the ſenſe of his preſent Goodneſs, and up<g ref="char:EOLhyphen"/>on the Credit of his Power, Faithfulneſs and Truth for the future, repleniſhed with thoſe hopes, which will never make us aſhamed; we think every day of our latter end, and prepare for it, and lay up before hand an ineſtimable Treaſure againſt it; which is the only thing that can ſtand us in ſtead on our Death-Beds, when the ſatisfactions of this life will ſlip out of our hands like Sands, and ſlide away from us like a Shadow.</p>
+               <p>This and much more comes by a Spirit of Devotion; and therefore let me beſeech you to be ever mindful of that; that which will return you your laſt and richeſt Crop, when you have done with all your Corn, Wine, and Oyl. Now for the kindling and che<g ref="char:EOLhyphen"/>riſhing of a Spirit of Devotion in the Hearts, give me leave to propoſe theſe following means.</p>
+            </div>
+            <div n="1" type="part">
+               <head>I.</head>
+               <p>That we never neglect Private Prayer. Our Bleſſed Saviour ſends us into our Clo<g ref="char:EOLhyphen"/>ſets, there to ſhut our Doors after us, <hi>Matth.</hi> 6. And the reaſon is, becauſe every man hath ſome Particular Sins to beg God's forgive<g ref="char:EOLhyphen"/>neſs
+<pb n="47" facs="tcp:63873:25"/>
+for, ſome particular Mercies to be im<g ref="char:EOLhyphen"/>plored; ſome particular, wants to be ſuppli<g ref="char:EOLhyphen"/>ed; ſome particular Graces to be deſired. God hath no where required, nor is it pro<g ref="char:EOLhyphen"/>per for us, to proclaim all our neceſſities from the Houſe-top: and therefore we are to go to him, who is in ſecret, and to whom we may unboſom our ſelves with freedom and ſafety. This will not only breed an awe upon our Minds, with an hearty affe<g ref="char:EOLhyphen"/>ction to that Divine Beiug, we familiarly ſpeak to in Private; but it will alſo make us in Love with that, which is the means of this familiarity; ſo that by Praying of<g ref="char:EOLhyphen"/>ten, we ſhall be the more willing and ready to pray ſtill; nor will it be an eaſie matter for us to venture, either to begin any bu<g ref="char:EOLhyphen"/>ſineſs, without begging God's aſſiſtance, and protection over us; or to cloſe up the Day, without giving him thanks and praiſe for the Mercies of it.</p>
+            </div>
+            <div n="2" type="part">
+               <head>II.</head>
+               <p>Where Men have the care of Families committed to them, they ſhould teach them to be of a devout temper too by their own Example. Remember the pious reſolution of <hi>Joſuah, Jo. 24. 15. As for me and my houſe, we will
+<pb n="48" facs="tcp:63873:26"/>
+ſerve the Lord.</hi> When a Spirit of Devotion influenceth a whole Houſhold, every ones Zeal is kept warm and increaſed by it, and the Bleſſing of God is upon them all. To this end we ſhould teach our Children and Servants to pray, as our Lord taught his Family. And by his giving them a Form, he hath ſhewed us, which is an Effectual way of breeding up our reſpective charges in the fear and nurture of the Lord; <hi>viz.</hi> by putting ſome ſhort and wholeſome Pray<g ref="char:EOLhyphen"/>ers into their Mouths and Memories. And this advantage every private Family might eaſily get by our publick Service Books, if people would but apply their minds in Dili<g ref="char:EOLhyphen"/>gence to uſe it, as they ſhould. There is in it great variety and ſtore of choice Forms, which may be digeſted and remembred with the more facility, becauſe they are conciſe: Nor is there any condition of Life, but we may pick out ſome Forms, which are one way or other ſuitable to our circumſtances, eſpecially as to our ſpiritual wants; and if people would be careful to learn them, and imprint them in their hearts; they would not only be devoutly diſpoſed in the midſt of their ſecular affairs, but be furniſhed too with matter to offer continually up to God, at loſt in their minds and thoughts. For
+<pb n="49" facs="tcp:63873:26"/>
+even at the works of their Callings men may meditate; They may think often upon God, and of things pertaining to Godlineſs, without any loſs of time, or hindrance to their worldly Employments. By the very lifting up of the Eye a thought of Heaven may fall in, and of the way to get thither. Any the leaſt work of Nature is enough to put us in mind of the Divine Power and Wiſdom. Nay the very Works of our own hands may help us to conſider how neceſſary it is to work out our Salvation, above all things. If then in our Secular Affairs there be fre<g ref="char:EOLhyphen"/>quent occaſions for Meditation, there muſt needs be frequent opportunities for Prayer too, at leſt for Mental Devotion. And how eaſie a matter is it for any man at the buſi<g ref="char:EOLhyphen"/>neſs of his Vocation, to lift up his heart with ſome ſuch Ejaculations as theſe? <hi>O Lord diſ<g ref="char:EOLhyphen"/>poſe the way of thy Servant towards the attain<g ref="char:EOLhyphen"/>ment of everlaſting ſalvation. O Lord, direct, ſanctifie and govern both my heart and body, in the ways of thy laws, and in the works of thy commandments. Prevent me, O Lord, in all my doings with thy moſt gracious favour, and further me with thy continual help. I humbly beſeech thee, O Father, mercifully to look upon my infirmities. O Lord, grant me ſuch ſtrength and protection as may ſupport me in all dangers, and carry me through all temptations. O Lord,
+<pb n="50" facs="tcp:63873:27"/>
+create and make in me a new and contrite heart. O Lord keep me both outwardly in my body, and inwardly in my ſoul. O Lord, give unto me the increaſe of Faith, Hope, and Charity. O God, mercifully grant, that thy Holy Spirit may in all things direct and rule my heart.</hi> We have a great number of ſuch uſeful and holy Petitions in our Liturgy, which if peo<g ref="char:EOLhyphen"/>ple would take but a little pains to fix in their Memories, their hearts would be al<g ref="char:EOLhyphen"/>ways ready; ready for God; ready with Sweet Incenſe to offer up to him; ſo ready provided that honeſt Tradeſmen in their very Shops, painful Husbandmen at the Plough, and the pooreſt Servants at the Mill, would not be at a loſs for ſome Godly Pray<g ref="char:EOLhyphen"/>ers to ſend to the Throne of Grace at every turn, to be united to the interceſſions of the Lord Jeſus for us all.</p>
+            </div>
+            <div n="3" type="part">
+               <head>III.</head>
+               <p>But the beſt way to ſtrengthen and in<g ref="char:EOLhyphen"/>creaſe in us a ſpirit of Devotion, is con<g ref="char:EOLhyphen"/>ſtantly to attend the Publick Aſſemblies, and to bear our parts in them, at the Houſe of God. For this reaſon God loveth the Gates of <hi>Sion,</hi> more than all the Dwellings (or Private Houſes) of <hi>Jacob,</hi> becauſe at the
+<pb n="51" facs="tcp:63873:27"/>
+Sanctuary the Prayers of his Saints<g ref="char:punc">▪</g> are moſt fervent. Thither we go to ſing aloud un<g ref="char:EOLhyphen"/>to God our ſtrength; to make a joyful noiſe unto the God of <hi>Jacob.</hi> There we meet together to offer up all our praiſes with one Heart, and with one Lip. There our Joynt Devotion conglomerates in its right Center. There every one helpeth to inflame his own Zeal; and his Brethrens alſo. There ſpark mixeth with ſpark, and all ſerves to ſet fire to the Sacrifice. This therefore is the chief thing I would recom<g ref="char:EOLhyphen"/>mend to your Chriſtian care and practice, to attend with all poſſible diligence the publick and ſolemn ſervice of God. What a ſhame is it, that the ways of <hi>Sion</hi> ſhould mourn for want of comers to the Temple? That the fire and the wood ſhould be in a readineſs, and the Lambs be miſſing? Men little think of thoſe ſevere times, when the Primitive Chriſtians were wont, rather than fail, to riſe up at Midnight, and to ſteal and creep away into Holes and Caves, to Pray and ſing Praiſes together. How joy<g ref="char:EOLhyphen"/>ful were all Pious Hearts in thoſe peaceable times following, when they ſaw Chriſtian Churches erected, and the Doors of them open, ſo that they might without fear or danger enter in to worſhip God in the Beau<g ref="char:EOLhyphen"/>ty
+<pb n="52" facs="tcp:63873:28"/>
+of Holineſs? What Multitudes thronged in, to offer violence to the Kingdom of God, in this ſenſe, and (as <hi>Tertullian</hi> ſpeaks) to Beleaguer Heaven with a great Army? And with Alacrity and Zeal did they ſend up their joynt Prayers, when (as St. <hi>Jerom</hi> tells us) their Amen was like the noiſe of Thunder? And how can we reflect on thoſe happy Ages without lamenting the great Degeneracy of this, when it is ſo hard a matter to perſwade ſome people to repair, though it be but once a day, to the ſo<g ref="char:EOLhyphen"/>lemnities of God's Worſhip? For God's<g ref="char:EOLhyphen"/>ſake, and your own Souls-ſake, let me at laſt perſwade you. What is Prieſt and Pa<g ref="char:EOLhyphen"/>riſh, but one large Family? and why ſhould we not meet once aday eſpecially (I wiſh it might be oftner) to pray unto God our Fa<g ref="char:EOLhyphen"/>ther, to be Merciful and Gracious, and pro<g ref="char:EOLhyphen"/>vident for us all? And where can we meet ſo properly, ſo decently, ſo conveniently, as in our common Fathers Houſe, who hath called us all unto Hope, and unto<g ref="char:punc">▪</g> one Bu<g ref="char:EOLhyphen"/>ſineſs? Are our Families ſo little that we cannot ſpare ſo much as one out of an Houſe, to be Advocate and Interceſſor for the reſt? Is the diſtance from the Church ſo great, that you ſhould count it more te<g ref="char:EOLhyphen"/>dious then a Sabbaths Days journey? Are
+<pb n="53" facs="tcp:63873:28"/>
+our Sins ſo few and inconſiderable, that there is no need of our Prayers for Pardon? Is our buſineſs ſo urgent, that we cannot ſpare a few minutes for the Honour of God, and for the good of our Souls? Have we loſt no time, that is neceſſary for us to re<g ref="char:EOLhyphen"/>deem? Our own ſafety and preſervation, and the Bleſſing of God upon all our La<g ref="char:EOLhyphen"/>bours, and the proſperity of the whole King<g ref="char:EOLhyphen"/>dom; are theſe ſuch trifling things, that we ſhould not think it worth our while to ſtep over our Threſholds to meet together at Prayer for them? For God's ſake let us in time lay to heart the things, which thus manifeſtly belong to our Peace. If nothing elſe can make us ſerious and thoughtful, a Death-Bed will; and then it may be too late, becauſe we may not be ſerious to good purpoſe. Whether we ſhall be then true Penitents, or truly Devout, is a thing un<g ref="char:EOLhyphen"/>certain; For it depends altogether upon the Grace of God; and Men may Sin their time of Grace away. Our ſafeſt courſe is to provide for Eternity betimes; and not to harden our hearts, but to hear the voice of God, and to anſwer it with an Eccho of Prayers and Praiſes, while it is yet called, to Day: And as many as walk according to this rule, Peace be on them and Mercy, and upon the whole Iſrael of God.</p>
+               <closer>Amen.</closer>
+            </div>
+         </div>
+         <div type="prayers">
+            <pb n="54" facs="tcp:63873:29"/>
+            <head>Forms of PRAYER which may be uſed at Home every Morning and Evening daily.</head>
+            <div n="morning" type="prayers">
+               <head>MORNING PRAYERS.</head>
+               <p>O Lord our Heavenly Father, Almigh<g ref="char:EOLhyphen"/>ty and Everlaſting God, who haſt ſafely brought us to the beginning of this day, Defend us in the ſame with thy migh<g ref="char:EOLhyphen"/>ty power; and grant that this day we fall into no Sin, neither run into any kind of Danger; but that all our doings may be ordered by thy governance, to do always that which is righteous in thy ſight, through Jeſus Chriſt our Lord.</p>
+               <p>O Almighty Lord and Everlaſting God, vouchſafe we beſeech thee to direct, ſanctify, and govern, both our Hearts and Bodies in the ways of thy Laws, and in the works of thy Commandments, that through thy mighty Protection both here and ever, we may be preſerved in Body and Soul,
+<pb n="55" facs="tcp:63873:29"/>
+through our Lord and Saviour Jeſus Chriſt.</p>
+               <p>PRevent us, O Lord, in all our doings with thy moſt gracious favour, and further us with thy continual help; that in all our works begun, continued and ended in thee, we may glorifie thy Holy Name, and finally by thy Mercy may obtain Ever<g ref="char:EOLhyphen"/>laſting Life, through Jeſus Chriſt our Lord.</p>
+               <p>O Almighty and moſt Merciful God, of thy bountiful goodneſs keep us, we beſeech thee, from all things that may hurt us; that we being ready both in Body and Soul, may chearfully accompliſh thoſe things, that thou wouldſt have done, through Jeſus Chriſt our Lord.</p>
+               <p>ALmighty and Everlaſting God, give us the increaſe of Faith, Hope, and Charity; and that we may receive that which thou doſt promiſe, make us to love that which thou doſt command, through Jeſus Chriſt our Lord.</p>
+               <p>GRant to us, Lord, we beſeech thee, the Spirit to think and do always ſuch things as be rightful; that we who
+<pb n="56" facs="tcp:63873:30"/>
+cannot do any thing that is good without thee, may by thee be enabled to live ac<g ref="char:EOLhyphen"/>cording to thy will, through Chriſt our Lord.</p>
+               <p>LOrd of all Power and Might, who art the Author and giver of all good things, graft in our Hearts the Love of thy Name, increaſe in us true Religion, nouriſh us with all goodneſs, and of thy great mercy keep us in the ſame, through Jeſus Chriſt our Lord.</p>
+               <p>ALmighty God, who haſt given thine only Son to be unto us <gap reason="illegible" resp="#OXF" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> a Sacri<g ref="char:EOLhyphen"/>fice for Sin, and alſo an Enſample of Godly Life; give us grace that we may always moſt thankfully receive that his ineſtimable Benefit; and alſo daily endeavour ourſelves to follow the bleſſed ſteps of his moſt holy Life, through the ſame Jeſus Chriſt our Lord.</p>
+               <p>GRant, O Lord, we beſeech thee, that the courſe of this World may be ſo peaceably ordered by thy governance, that thy Church may joyfully ſerve thee in all godly quietneſs, through Jeſus Chriſt our Lord.</p>
+               <pb n="57" facs="tcp:63873:30"/>
+               <p>ALmighty and Everlaſting God, who hateſt nothing that thou haſt made, and doſt forgive the Sins of all them that are Penitent; Create and make in us new and contrite Hearts; that we worthily la<g ref="char:EOLhyphen"/>menting our Sins, and acknowledging our Wretchedneſs, may obtain of thee the God of all Mercy, perfect remiſſion and forgive<g ref="char:EOLhyphen"/>neſs, through Jeſus Chriſt our Lord.</p>
+               <p>WE humbly beſeech thee, O Father, mercifully to look upon our infir<g ref="char:EOLhyphen"/>mities, and for the glory of thy name turn from us all thoſe Evils that we moſt righte<g ref="char:EOLhyphen"/>ouſly have deſerved; and grant, that in all our troubles we may put our whole truſt and confidence in thy mercy, and evermore ſerve thee in holineſs and pureneſs of living<g ref="char:punc">▪</g> to thy Honour and Glory, through our on<g ref="char:EOLhyphen"/>ly Mediator and Advocate Jeſus Chriſt our Lord.</p>
+               <p>O God, who knoweſt us to be ſet in the midſt of ſo many and great dan<g ref="char:EOLhyphen"/>gers, that by reaſon of the frailty of our Nature, we cannot always ſtand upright; grant unto us ſuch ſtrength and protection, as may ſupport us in all dangers, and carry
+<pb n="58" facs="tcp:63873:31"/>
+us through all temptations, through Jeſus Chriſt our Lord.</p>
+               <closer>Our Father which art in Heaven, Hal<g ref="char:EOLhyphen"/>lowed be thy Name, <hi>&amp;c.</hi>
+               </closer>
+            </div>
+            <div n="evening" type="prayers">
+               <head>EVENING PRAYERS.</head>
+               <p>LIghten our darkneſs, we beſeech thee, O Lord, and by thy great Mercy de<g ref="char:EOLhyphen"/>fend us from all Perils and Dangers of this Night, for the love of thy only Son, our Saviour Jeſus Chriſt.</p>
+               <p>ALmighty and Everlaſting God, merci<g ref="char:EOLhyphen"/>fully look upon our infirmities, and in all our dangers and neceſſities, ſtretch forth thy Righthand to help and defend us, through Jeſus Chriſt our Lord.</p>
+               <p>ALmighty God, who ſeeſt that we have no power of ourſelves to help ourſelves; keep us both outwardly in our bodies, and inwardly in our Souls; that we may be de<g ref="char:EOLhyphen"/>fended from all adverſities which may hap<g ref="char:EOLhyphen"/>pen to the Body, and from all evil thoughts which may aſſault and hurt the Soul, through Jeſus Chriſt our Lord.</p>
+               <pb n="59" facs="tcp:63873:31"/>
+               <p>O Lord, we beſeech thee, mercifully hear our Prayers, and ſpare all thoſe who confeſs their Sins unto thee; that they whoſe Conſciences by Sin are accuſed, by thy merciful pardon may be abſolved, through Chriſt our Lord.</p>
+               <p>GRant, we beſeech thee, Almighty God, that we who for our evil deeds do worthily deſerve to be puniſhed, by the comfort of thy grace may mercifully be re<g ref="char:EOLhyphen"/>lieved, through our Lord and Saviour Jeſus Chriſt.</p>
+               <p>ALmighty and Everlaſting God, who doſt govern all things in Heaven and Earth; mercifully hear the ſupplications of thy people, and grant us thy peace all the days of our Life, through Chriſt our Lord.</p>
+               <p>O Lord, who haſt taught us, that all our doings without Charity are no<g ref="char:EOLhyphen"/>thing worth; ſend thy Holy Ghoſt, and pour into our hearts that moſt excellent gift of Charity, the very bond of Peace, and of all virtues, without which whoſoe<g ref="char:EOLhyphen"/>ver liveth, is counted dead before thee; grant this for thine only Son Jeſus Chriſt's ſake.</p>
+               <pb n="60" facs="tcp:63873:32"/>
+               <p>O Lord God moſt Holy, O Lord moſt Mighty, O Holy and moſt merciful Saviour, deliver us not into the bitter pains of Eternal Death: Thou knoweſt, Lord, the ſecrets of our Hearts, ſhut not thy mer<g ref="char:EOLhyphen"/>ciful Ears to our Prayers; but ſpare us, Lord moſt holy, O God moſt mighty, O holy and merciful Saviour, thou moſt wor<g ref="char:EOLhyphen"/>thy Judge Eternal, ſuffer us not at our laſt hour for any pains of Death to fall from thee.</p>
+               <p>O God whoſe bleſſed Son was mani<g ref="char:EOLhyphen"/>feſted, that he might deſtroy the works of the Devil, and make us the Sons of God, and Heirs of Eternal Life; grant us, we beſeech thee, that having this hope, we may purifie our ſelves, even as he is pure; that when he ſhall appear again with power and great Glory, we may be made like unto him in his Eternal and Glorious Kingdom; where with thee, O Father, and thee O Holy Ghoſt, he liveth and reigneth ever one God, World without end.</p>
+               <p>GRant, O Lord, that as we are Bap<g ref="char:EOLhyphen"/>tized into the Death of thy Bleſſed Son our Saviour Jeſus Chriſt; ſo by conti<g ref="char:EOLhyphen"/>nual mortifying our corrupt affections, we may be buried with him; and that through
+<pb n="61" facs="tcp:63873:32"/>
+the Grave, and Gate of Death, we may paſs to our joyful Reſurrection, for his Me<g ref="char:EOLhyphen"/>rits, who died, and was buried, and roſe again for us, thy Son Jeſus Chriſt our Lord.</p>
+               <p>O Lord, who never faileſt to help and govern them, whom thou doſt bring up in thy ſtedfaſt, fear, and love; Keep us we beſeech thee, under the protection of thy good Providence, and make us to have a perpetual fear and love of thy holy Name, through Jeſus Chriſt our Lord.</p>
+               <p>O Lord, we beſeech thee, let thy continual pity cleanſe and defend thy Church; and becauſe it cannot continue in ſafety without thy ſuccour, preſerve it evermore by thy help and goodneſs, through Chriſt our Lord.</p>
+               <p>UNto God's gracious mercy and pro<g ref="char:EOLhyphen"/>tection we commit our ſelves. The Lord bleſs us, and keep us. The Lord make his face to ſhine upon us, and be gra<g ref="char:EOLhyphen"/>cions unto us. The Lord lift up his Coun<g ref="char:EOLhyphen"/>tenance upon us, and give us peace, both now and evermore.</p>
+               <closer>Our Father which art in Heaven, hallowed be thy name, <hi>&amp;c.</hi>
+               </closer>
+            </div>
+            <div n="short" type="prayers">
+               <pb n="62" facs="tcp:63873:33"/>
+               <head>Short <hi>PRAYERS</hi> fit to be learn'd by Heart, and to be uſed by ſingle Perſons at any time.</head>
+               <p>LOrd have mercy upon me.</p>
+               <p>O God make clean my Heart with<g ref="char:EOLhyphen"/>in me,</p>
+               <p>And take not thy holy Spirit from me.</p>
+               <p>O Lamb of God that takeſt away the Sins of the World, grant me thy Peace.</p>
+               <p>O Lord deal not with me after my Sins:</p>
+               <p>Neither reward me after mine iniquities.</p>
+               <p>Lord have mercy upon me, and incline my Heart to keep thy Laws.</p>
+               <p>Grant that all Carnal affections may die in me, and that all things belonging to the Spirit may live and grow in me.</p>
+               <p>Grant that I may have power and ſtrength to have Victory, and to Triumph againſt the Devil, the World, and the Fleſh.</p>
+               <p>Lord ſend me help from thy Holy place;</p>
+               <p>And evermore mightily defend me.</p>
+               <p>Let the Enemy have no advantage of me,</p>
+               <p>
+                  <pb n="63" facs="tcp:63873:33"/>Nor let the Wicked approach to hurt me.</p>
+               <p>Be unto me, O Lord, a ſtrong tower</p>
+               <p>From the face of my Enemies.</p>
+               <p>O Saviour of the World, who by thy Croſs and precious Blood haſt redeemed me, ſave me and help me, I humbly be<g ref="char:EOLhyphen"/>ſeech thee, O Lord.</p>
+               <p>O Lord, bleſs me and keep me: O Lord lift up the light of thy Countenance upon me, and give me peace.</p>
+               <p>Lord, hold thou up my goings in thy Paths, that my footſteps ſlip not.</p>
+               <p>Keep me as the apple of an Eye.</p>
+               <p>Hide me under the ſhadow of thy wings.</p>
+               <p>O cleanſe me from my ſecret faults.</p>
+               <p>And keep thy Servant back from pre<g ref="char:EOLhyphen"/>ſumptuous Sins.</p>
+               <p>O remember not the Sins and offences of my Youth; but according to thy mercy think thou upon me, O Lord, for thy goodneſs.</p>
+               <p>O keep my Soul and deliver me: Let me not be confounded, for I have put my truſt in thee.</p>
+               <p>Lord hide not thy face from me, nor caſt thy Servant away in diſpleaſure.</p>
+               <p>Thou haſt been my ſuccour: Leave me not, neither forſake me, O God of my Salvation.</p>
+               <p>
+                  <pb n="64" facs="tcp:63873:34"/>Into thy hands I commend my Spirit; for thou haſt redeemed me, O Lord, thou God of Truth.</p>
+               <p>O let not the Foot of Pride come againſt me; and let not the hand of the Ungodly caſt me down.</p>
+               <p>Turn thy face from my Sins; and put out all my miſdeeds.</p>
+               <p>Make me a clean Heart, O God, and renew a right Spirit in me.</p>
+               <p>Comfort the Soul of thy Servant; for un<g ref="char:EOLhyphen"/>to thee, O Lord, do I lift up my Soul.</p>
+               <p>Teach me thy way, O Lord, and I will walk in thy truth; O knit my heart unto thee, that I may fear thy name.</p>
+               <p>So teach me to number my days, that I may apply my Heart unto Wiſdom.</p>
+               <p>O let me have Underſtanding in the way of Godlineſs.</p>
+               <p>O that my ways were made ſo direct, that I might keep thy Statutes!</p>
+               <p>I am a ſtranger upon Earth: O hide not thy Commandments from me.</p>
+               <p>Open thou mine Eyes, that I may ſee the wondrous things of thy Law.</p>
+               <p>Lord, look thou upon me, and be mer<g ref="char:EOLhyphen"/>ciful unto me, as thou uſeſt to do unto thoſe that fear thy name.</p>
+               <p>
+                  <pb n="65" facs="tcp:63873:34"/>I have gone aſtray, like as a Sheep that is loſt: O ſeek thy Servant, for I do not forget thy Commandments.</p>
+               <p>Do well, O Lord, unto thoſe that are good and true of Heart.</p>
+               <p>As for me, I am poor and in miſery, haſte thee unto me, O God.</p>
+               <p>Thou art my helper and my Redeemer; O Lord, make no long tarrying.</p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+      <back>
+         <div type="publishers_advertisement">
+            <pb facs="tcp:63873:35"/>
+            <head>
+               <hi>BOOKS</hi> Printed for, and Sold by <hi>W. Crooke,</hi> at the <hi>Green-Dragon</hi> without <hi>Temple-Bar, 1693.</hi>
+            </head>
+            <p>1. THe <hi>London Practice of Phyſick,</hi> or the whole Practical Part of Phy<g ref="char:EOLhyphen"/>ſick, contained in the Works of Dr. <hi>Tho. Wil<g ref="char:EOLhyphen"/>lis;</hi> faithfully made <hi>Engliſh,</hi> and Printed to<g ref="char:EOLhyphen"/>gether for the Publick good: <hi>To which is bound</hi> his Plain and Eaſie Method for preſer<g ref="char:EOLhyphen"/>ving from, and Curing of <hi>the Plague,</hi> and all other Contagious Diſeaſes, in <hi>8o.</hi> price bound <hi>8s.</hi>
+            </p>
+            <p>2. The <hi>Chriſtian Manual,</hi> in three Parts.</p>
+            <p>1. The <hi>Catechumen,</hi> or an Account given by the Young Perſon of his Knowledge in Religion, before his Admiſſion to the <hi>Lords Supper,</hi> as a Ground-work for his right un<g ref="char:EOLhyphen"/>derſtanding the <hi>Sacrament:</hi> alone, price <hi>8d.</hi>
+            </p>
+            <p>2. And <hi>Introduction</hi> to a plain and ſafe way to the <hi>Communion</hi> Table, with <hi>Prayers</hi> fitted for the Communicant, <hi>Before, At,</hi> and <hi>After</hi> the receiving of the <hi>Lords Supper:</hi> To which is added the <hi>Communicants Aſſiſtant.</hi> Alone, price <hi>1s.</hi>
+            </p>
+            <p>3. The <hi>Primitive Inſtitution,</hi> ſhewing the great Benefit and Neceſſity of <hi>Chatechiſing,</hi> to ſave the Souls of particular Perſons, and to heal the <hi>preſent Diſtempers</hi> of the Church,
+<pb facs="tcp:63873:35"/>
+in <hi>12o.</hi> Alone, price bound 1 <hi>s.</hi> But the whole together 2 <hi>s.</hi> bound; Entitled the <hi>Chriſtians Manual,</hi> all three by Dr. <hi>Ad<g ref="char:EOLhyphen"/>diſon</hi> Dean of <hi>Lichfield.</hi>
+            </p>
+            <p>3. The <hi>Hiſtorians Guide,</hi> or <hi>Britain</hi>'s Re<g ref="char:EOLhyphen"/>membrancer; being a Summary of all the Actions, Battles, <hi>&amp;c.</hi> Preferments, Changes, <hi>&amp;c.</hi> that happened in his Majeſty's King<g ref="char:EOLhyphen"/>dom, from <hi>An. Dom.</hi> 1600. to 1690. ſhewing the Year, Month, and Day of the Month each was done in; with an Alphabetical Table, for the more eaſie finding out any thing in the Book, in <hi>12o.</hi> Price bound 2 <hi>s.</hi>
+            </p>
+            <p>4. <hi>Compendium Geographicum,</hi> or a more plain and eaſie <hi>Introduction</hi> into all <hi>Geography</hi> than yet extant, after the lateſt Diſcoveries and Alterations; with two Alphabets, 1. Of the <hi>Ancient,</hi> and 2. Of the <hi>Modern</hi> Names of <hi>Places, &amp;c.</hi> by <hi>P. C. Chamberlain</hi> of the <hi>In<g ref="char:EOLhyphen"/>ner-Temple,</hi> in <hi>12o.</hi> price bound 1 <hi>s.</hi>
+            </p>
+            <p>5. <hi>Bucaniers of America,</hi> or a true Account of the moſt Remarkable <hi>Aſſaults,</hi> committed of late Years upon the Coaſts of the <hi>Weſt-Indies,</hi> by the <hi>Engliſh</hi> and <hi>French;</hi> with the unparallel'd Exploits of Sir <hi>H. Morgan,</hi> Cap<g ref="char:EOLhyphen"/>tain <hi>Cooke,</hi> Captain <hi>Sharp,</hi> and other <hi>Engliſh</hi> Men: Alſo the great Cruelties of the <hi>French Bucaniers,</hi> as of <hi>Lolonris, Barti, Portugues, Rock Braſiliano,</hi> &amp;c. in two Volumes; both bound together.</p>
+            <p>
+               <pb facs="tcp:63873:36"/>6. The <hi>Works of Homer, viz.</hi> His <hi>Illiads</hi> and <hi>Oddiſes,</hi> Tranſlated out of <hi>Greek</hi> into <hi>Engliſh</hi> by <hi>Tho. Hobbs</hi> of <hi>Malmsbury,</hi> Third Edition, price bound 5 <hi>s.</hi>
+            </p>
+            <p>7. <hi>Nine Treatiſes</hi> of <hi>Tho. Hobbs</hi> of <hi>Malmsbury,</hi> bound in two Volumes in <hi>8vo, viz.</hi> 1. His <hi>Behemoth,</hi> or Civil Wars of <hi>Eng<g ref="char:EOLhyphen"/>land.</hi> 2. His Hiſtorical Narration of <hi>Hereſie.</hi> 3. His Anſwer to Biſhop <hi>Bramhall</hi> in <hi>Defence of his Leviathan.</hi> 4. His Seven <hi>Problems;</hi> with an <hi>Apology</hi> to the King for his <hi>Writings.</hi> Theſe four were printed all at one time, and called his <hi>Tracts:</hi> price bound <hi>5s.</hi>—5. His <hi>Life</hi> in <hi>Latin,</hi> writ part by himſelf, and finiſhed by Dr. <hi>B.</hi> 6. His <hi>Conſideration</hi> on his own Religion, Loyalty, <hi>&amp;c.</hi> 7. His Art of <hi>Rhetorick</hi> in <hi>Engliſh.</hi> 8. His Dialogue about the <hi>Common Law</hi> of <hi>England.</hi> 9. His Ten Dialogues of <hi>Natural Phyloſophy</hi> in <hi>Eng<g ref="char:EOLhyphen"/>liſh.</hi> Theſe Five laſt were printed at ſeveral times, and ſold ſingle; but for conveniency alſo bound in a Volume together, and ſold for 7 <hi>s. 6 d.</hi>
+            </p>
+            <p>8. <hi>A Modern View</hi> of ſuch parts of <hi>Europe</hi> that hath lately been, and ſtill are, the Pla<g ref="char:EOLhyphen"/>ces of great Tranſactions; <hi>viz. Italy,</hi> with all its Principalities: <hi>France,</hi> with all its Provinces and Biſhopricks; <hi>Germany,</hi> with the Dukedom of <hi>Lorrain,</hi> and all the Electo<g ref="char:EOLhyphen"/>rates
+<pb facs="tcp:63873:36"/>
+and Lordſhips of the Empire; <hi>Spain,</hi> with all its Dominions, <hi>&amp;c.</hi> Wherein is ſhewed the Preſent State of all thoſe Coun<g ref="char:EOLhyphen"/>tries, with <hi>curious Remarks</hi> of Antiquity inter<g ref="char:EOLhyphen"/>woven, in <hi>8o.</hi> price bound 2 <hi>s. 6 d.</hi>
+            </p>
+            <p>9. The <hi>Caſe of the Reſiſtance</hi> of the Su<g ref="char:EOLhyphen"/>pream Powers Stated and Reſolved, accor<g ref="char:EOLhyphen"/>ding to the Holy Scriptures, by <hi>W. Sherlock,</hi> D. D. Dean of St. <hi>Pauls,</hi> and Maſter of the <hi>Temple,</hi> the Second Edition, in <hi>8o.</hi> price bound 2 <hi>s.</hi>
+            </p>
+            <p>10. A Plain and Eaſie <hi>Method,</hi> for preſer<g ref="char:EOLhyphen"/>ving thoſe that are well from the Infection of the Plague, or any <hi>Contagious Diſtemper</hi> in <hi>City, Country, Camp, Fleet, &amp;c.</hi> and for Curing ſuch as are infected with it; by Dr. <hi>Tho. Willis,</hi> never printed before.</p>
+            <p>11. <hi>De Mirabilibus Pecci,</hi> being the Won<g ref="char:EOLhyphen"/>ders of the <hi>Devils Arſe of Peak,</hi> in <hi>Latin</hi> and <hi>Engliſh,</hi> by <hi>Tho. Hobbs</hi> of <hi>Malmsbury,</hi> in <hi>12o.</hi> price bound 1 <hi>s.</hi>
+            </p>
+            <p>12. <hi>Britain's Glory,</hi> and <hi>England's Bravery<g ref="char:punc">▪</g>
+               </hi> wherein is ſhewed the Degrees of Honour from the Prince to the Peaſant; the <hi>Prece<g ref="char:EOLhyphen"/>dency</hi> of all Perſons, from the Throne to the Bondman, uſeful for all, eſpecially for <hi>Feaſts, Funerals, Proceſſions,</hi> and all great Aſſemblies, <hi>&amp;c.</hi> With the <hi>Heralds Duty</hi> and <hi>Power;</hi> and a <hi>Dictionary of the Terms</hi> in Heraldry, and
+<pb facs="tcp:63873:37"/>
+an Account of all the Orders of <hi>Knighthood</hi> in Chriſtendom; by <hi>B. Smithurſt</hi> in 120. price bound 1 <hi>s.</hi> 6 <hi>d.</hi>
+            </p>
+            <p>13. The <hi>Court of Curioſity,</hi> wherein the moſt intricate Queſtions are reſolved by the moſt exact and curious <hi>Fortune Book</hi> that is extant. And Dreams and Viſions Interpreted and Explained according to the Doctrine of the Antients, and Practice of the Moderns. Much enlarged and explained in this third Edition, 120. price bound 1 <hi>s.</hi> 6 <hi>d.</hi>
+            </p>
+            <p>14. <hi>Peppa,</hi> or the Reward of Conſtant Love, a <hi>Novel.</hi> Done out of <hi>French</hi> by a <hi>Toung Gentlewoman:</hi> with the ſeveral <hi>Songs ſet to Muſick,</hi> in 120. price 1 <hi>s.</hi> 6 <hi>d.</hi>
+            </p>
+            <p>15. Dr. <hi>Haſcard,</hi> Dean of <hi>Windſor</hi> his three Sermons on Publick Occaſions.</p>
+            <p>16. Dr. <hi>Maningham</hi>'s Seven Sermons on ſeveral Occaſions, in <hi>4to.</hi>
+            </p>
+            <p>17.—His Two Diſcourſes, <hi>8vo.</hi>
+            </p>
+            <p>18. Mr. <hi>Budgel</hi>'s Sermon of Prayer, <hi>4to.</hi>
+            </p>
+            <p>19. Mr. <hi>Loightonhouſe</hi>'s Sermon on the Sacrament, <hi>4to.</hi>
+            </p>
+            <p>20. Mr. <hi>Buckly</hi>'s Sermon at <hi>Hereford, 4to.</hi>
+            </p>
+            <p>21. Dr. <hi>Harriſon</hi>'s Sermon on the Plot, <hi>4to.</hi>
+            </p>
+            <p>22. Mr. <hi>Wight</hi>'s Diſc. of Schiſm, <hi>4to.</hi>
+            </p>
+            <p>23. Mr. <hi>Chillingworth</hi> againſt the Papiſts, in <hi>Quarto</hi> and in <hi>Folio.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:63873:37"/>24. <hi>Des Eſcotai</hi>'s Sermon at the <hi>Savoy, French</hi> and <hi>Engliſh.</hi>
+            </p>
+            <p>25. Mr. <hi>Ellesby</hi>'s Sermon on <hi>Jan. 30. 4to.</hi>
+            </p>
+            <p>26.—Diſcourſe of Conſcience, <hi>4to.</hi>
+            </p>
+            <p>27. Mr. <hi>Howell</hi>'s Viſitation Sermon, <hi>4to.</hi>
+            </p>
+            <p>28. <hi>Grotius.</hi> Chatechiſm, <hi>Greek, Latin,</hi> and <hi>Engliſh,</hi> with a Praxis to the Greek, <hi>8vo.</hi>
+            </p>
+            <p>29. Mr. <hi>Howell</hi>'s Spirit of Prophecy, <hi>8vo.</hi>
+            </p>
+            <p>30. Dr. <hi>Addiſon</hi>'s State of the <hi>Jews,</hi> 120.</p>
+            <p>31.—Modeſt Plea for the Clergy, <hi>8vo.</hi>
+            </p>
+            <p>32.—Firſt State of Mahumetiſm, <hi>8vo.</hi>
+            </p>
+            <p>33.—<hi>Moors</hi> baffled in <hi>Tangier, 4to.</hi>
+            </p>
+            <p>34.—<hi>Chatechumen,</hi> 120.</p>
+            <p>35.—Mr. <hi>Trahern</hi>'s Souls Communion with her Saviour, 120.</p>
+            <p>36. <hi>Kitchin</hi>'s Juriſdiction of Courts, <hi>8vo.</hi>
+            </p>
+            <p>37. Lord <hi>Hobart</hi>'s Reports.</p>
+            <p>38. <hi>Cook</hi>'s Inſtitutes, <hi>2d, 3d,</hi> and <hi>4th</hi> Parts.</p>
+            <p>39. <hi>Officina Brevium, fol.</hi>
+            </p>
+            <p>40. Lord <hi>Littleton</hi>'s Reports.</p>
+            <p>41. Compleat Sollicitor and Attorney.</p>
+            <p>42. Lord <hi>Saunder</hi>'s Reports.</p>
+            <p>43. Mr. <hi>Hanſard</hi>'s new Book of En<g ref="char:EOLhyphen"/>tries.</p>
+            <p>44. Doctor and Student.</p>
+            <p>45. <hi>Fitz. Natura Brevium.</hi>
+            </p>
+            <p>46. <hi>Keilway</hi>'s Reports, with the new refe<g ref="char:EOLhyphen"/>rences to all the Modern Reports.</p>
+            <p>
+               <pb facs="tcp:63873:38"/>47. <hi>Wingate</hi>'s Abridgment of all the Sta<g ref="char:EOLhyphen"/>tutes in force to K. <hi>W.</hi> and Q. <hi>M.</hi>
+            </p>
+            <p>48. <hi>Bulſtrode</hi>'s Reports.</p>
+            <p>49. Dr. <hi>Howell</hi>'s Hiſtory of the World. The firſt and ſecond Volumes publiſhed by the Author in his Life time, <hi>Fol.</hi>
+            </p>
+            <p>50. <hi>Clelia,</hi> a Romance.</p>
+            <p>51. <hi>Scarron</hi>'s Comical Romance: being a facetious Hiſtory of a Company of Stage-Players, <hi>Fol.</hi>
+            </p>
+            <p>52. Journal of the Houſe of Peers.</p>
+            <p>53. Journals of the Houſe of Commons.</p>
+            <p>54. <hi>Townſend</hi>'s Hiſtorical Collection of Queen <hi>Elizabeth</hi>'s four laſt Parliaments.</p>
+            <p>55. Laſt Seventeen Years of Queen <hi>Eli<g ref="char:EOLhyphen"/>zabeth.</hi>
+            </p>
+            <p>56. The Connexion in King <hi>James</hi> I. Reign, being a Supplement of remarkable Paſſages omitted betwixt Mr. <hi>Townſend</hi> and Mr. <hi>Ruſhworth</hi>'s Collections.</p>
+            <p>57. Fathers Advice to a Son on a Voyage.</p>
+            <p>58. <hi>Flower-Garden,</hi> and Compleat Vine<g ref="char:EOLhyphen"/>yard, by Mr. <hi>Hughes,</hi> 120.</p>
+            <p>59. King killing Doctrine of the Jeſuits.</p>
+            <p>60. <hi>Brevis Demonſtratio,</hi> or the Truth of Chriſtian Religion demonſtrated by Reaſon, price 10 <hi>d.</hi> in 120.</p>
+            <p>61. <hi>Blunt</hi>'s Voyage into the <hi>Levant.</hi>
+            </p>
+            <p>62. <hi>Bridall</hi>'s Preſent State of <hi>London.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:63873:38"/>63. <hi>Hobb</hi>'s <hi>Homer</hi> in <hi>Engliſh,</hi> both <hi>Illiads</hi> and <hi>Odiſſes,</hi> with a large Preface of Mr. <hi>Hobbs</hi>'s about Heroick Poeſie, 120. price 55.</p>
+            <p>64.—Travels of <hi>Ulyſſes, Eng.</hi>
+            </p>
+            <p>65.—<hi>Behemoth,</hi> or Civil Wars of <hi>England.</hi>
+            </p>
+            <p>66.—Natural Philoſophy.</p>
+            <p>67.—<hi>Vita per Dr. Blackborn.</hi>
+            </p>
+            <p>68.—Poem on his Life, in <hi>Engliſh.</hi>
+            </p>
+            <p>69.—Poem on <hi>Darby Peak. Latin</hi> and <hi>Engliſh.</hi>
+            </p>
+            <p>70.—Narration of Hereſie, and the Puniſhment thereof.</p>
+            <p>71.—Anſwer to Biſhop <hi>Bramhall,</hi> in De<g ref="char:EOLhyphen"/>fence of <hi>Leviathan.</hi>
+            </p>
+            <p>72.—Letter of Liberty and Neceſſity.</p>
+            <p>73.—Seven Problems.</p>
+            <p>74.—Whole Art of <hi>Rhetorick, Engliſh.</hi>
+            </p>
+            <p>75.—Dialogue of the Laws of <hi>England.</hi>
+            </p>
+            <p>76.—Conſideration on his Loyalty, Religion, Reputation, and Manners, <hi>8vo.</hi> price bound 1 <hi>s.</hi>
+            </p>
+            <p>77.—<hi>Leviathan</hi> in <hi>4to.</hi> in <hi>Latin.</hi>
+            </p>
+            <p>78.—<hi>De Principiis &amp; Ratiocinatione.</hi>
+            </p>
+            <p>79.—<hi>De Duplicatione Cubi.</hi>
+            </p>
+            <p>80.—<hi>Quadratura Circuli.</hi>
+            </p>
+            <p>81.—<hi>Roſetum Geometricum.</hi>
+            </p>
+            <p>82.—<hi>Principia &amp; Problemata.</hi>
+            </p>
+            <p>83.—<hi>Epiſtola ad Ant. a Wood.</hi>
+            </p>
+            <p>84.—<hi>Lux Mathematicus.</hi>
+            </p>
+            <p>
+               <pb facs="tcp:63873:39"/>85.—<hi>Hiſtoria Eccleſiaſtic.</hi>
+            </p>
+            <p>86. <hi>Popiſh Cruelties,</hi> being Dr. <hi>Parry</hi>'s Tryal.</p>
+            <p>87. Mr. <hi>Hallely</hi>'s Golden Rule of Arith<g ref="char:EOLhyphen"/>matick made eaſie.</p>
+            <p>88. The True <hi>Engliſhman, 4to.</hi> by Dr. <hi>Harriſon.</hi>
+            </p>
+            <p>89. The Queen's Birth-Day Song, for <hi>Ap.</hi> 29. 1691.</p>
+            <div n="new" type="books">
+               <head>New Books.</head>
+               <p>90. <hi>Cicero</hi>'s <hi>Laelius,</hi> being a Diſcourſe of Friendſhip: Written by <hi>M. T. Cicero,</hi> in the latter part of his Age, when all the World were at Wars, curiouſly Tranſlated into <hi>Engliſh:</hi> price bound <hi>1s. 6d.</hi>
+               </p>
+               <p>91. Mr. <hi>Wright</hi>'s Sermon at the Funeral of Mrs. <hi>Greſwald,</hi> Wife to Mr. <hi>Greſwald,</hi> Rector of <hi>Sollyhull</hi> in <hi>Warwickſhire.</hi>
+               </p>
+               <p>92. A Brief Character of <hi>Ireland;</hi> with ſome Obſervations on the Cuſtoms, Man<g ref="char:EOLhyphen"/>ners, and Behaviour of the Native <hi>Iriſh.</hi> Written by <hi>J. B.</hi> Gent. that lived among them long, 120. price bound <hi>8d.</hi>
+               </p>
+               <p>93. A Sermon Preached before the Queen, <hi>March</hi> 16. 1691/2. by Dr. <hi>Pelling,</hi> Rector of <hi>Petworth.</hi>
+               </p>
+               <p>94. A Sermon concerning Publick Wor<g ref="char:EOLhyphen"/>ſhip,
+<pb facs="tcp:63873:39"/>
+Preached before the Queen, <hi>March</hi> 23. 1691/2. by Dr. <hi>Manningham,</hi> Rector of St. <hi>Andrew Holborn, London.</hi>
+               </p>
+               <p>95. A Sermon Preached at the Aſſizes (held at <hi>Lincoln, March</hi> 6. 1691/2. by the Lord Chief Juſtice Sir <hi>John Holt,</hi>) by Mr. <hi>Leightonhouſe,</hi> Rector of <hi>Waſhingburgh,</hi> nigh <hi>Lincoln,</hi> late Fellow of <hi>Lincoln</hi> Colledge in <hi>Oxon.</hi>
+               </p>
+               <p>96. A Practical Diſcourſe upon the Bleſ<g ref="char:EOLhyphen"/>ſed Sacrament; Shewing the Duties of the Communicant, Before, At, and After the <hi>Euchariſt,</hi> by <hi>Edw. Pelling,</hi> D. D. Rector of <hi>Petworth,</hi> and Chaplain to Their Majeſties.</p>
+               <p>97. A Sermon Preached, <hi>Sept.</hi> 28. 1692. at a Primary Viſitation held at <hi>Chicheſter,</hi> by the Right Reverend Father in GOD <hi>Robert</hi> Lord Biſhop of <hi>Chicheſter,</hi> publiſhed at the Biſhops requeſt, by <hi>Edw. Pelling,</hi> D. D. Chaplain to Their Majeſties, and Re<g ref="char:EOLhyphen"/>ctor of <hi>Petworth, 4to.</hi>
+               </p>
+               <p>98. The Great Danger and Uncertainty of Death-Bed Repentance, as it was deli<g ref="char:EOLhyphen"/>vered in a Funeral Sermon at <hi>Chiſwick,</hi> by <hi>J. Ellesby,</hi> Vicar thereof, in <hi>4to.</hi>
+               </p>
+            </div>
+         </div>
+         <div type="notice">
+            <pb facs="tcp:63873:40"/>
+            <head>ADVERTISEMENT.</head>
+            <p>DR. <hi>Willis</hi>'s famous Pills for the Cure of the Scurvey, at <hi>3s.</hi> a Box, are Sold by <hi>W. Crooke</hi> aforeſaid, Mr. <hi>Bird</hi> in <hi>Weſtminſter-Hall,</hi> Mr. <hi>Harbin</hi> againſt the <hi>Golden-Tun</hi> Tavern in the <hi>Strand,</hi> at <hi>Lichfield, Tamworth, Launceſton, Northampton, Toceſter, Durham, Ipſwich, Colcheſter, Bath, Briſtol,</hi> &amp;c.</p>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:63873:40"/>
+         </div>
+      </back>
+   </text>
+</TEI>
